@@ -1,0 +1,21 @@
+<% @body_class = 'two-col' %>
+<% @body_id = 'cart' %>
+
+<% content_for :sidebar do %>
+  <%= hook :homepage_sidebar_navigation do %>
+    <% if "products" == @current_controller && @taxon %>
+      <%= render "shared/filters" %>
+    <% else %>
+      <%= render "shared/taxonomies" %>
+    <% end %>
+  <% end %>
+<% end %>
+
+
+<h1><%= t("shopping_cart")%></h1>
+
+<%= form_for(@order, :url =>'#', :html => { :method => :put}) do |order_form| %>
+  <%= render :partial => 'form', :locals => {:order_form => order_form} %>
+<% end %>
+
+<p><%=link_to t("continue_shopping"), products_path %></p>

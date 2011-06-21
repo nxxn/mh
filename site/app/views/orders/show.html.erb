@@ -1,0 +1,28 @@
+<% @body_class = 'two-col' %>
+
+<% content_for :sidebar do %>
+  <%= hook :homepage_sidebar_navigation do %>
+    <% if "products" == @current_controller && @taxon %>
+      <%= render "shared/filters" %>
+    <% else %>
+      <%= render "shared/taxonomies" %>
+    <% end %>
+  <% end %>
+<% end %>
+
+<div id="order">
+  
+
+  <% if params.has_key? :checkout_complete %>
+  	<br/><br/>
+  	<h3><%= t('thank_you_for_your_order') %></h3>         
+  <% else %>
+  	 <%= link_to t('my_account'), user_path(current_user) if current_user%>
+  <% end %>
+  <br/><br/>
+
+  <%= render :partial => 'shared/order_details', :locals => {:order => @order} %>
+
+  <br/>
+  <%= link_to t('back_to_store'), products_path %>
+</div>

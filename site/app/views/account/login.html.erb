@@ -1,0 +1,16 @@
+<% @body_class = 'two-col' %>
+
+<% content_for :sidebar do %>
+  <%= hook :homepage_sidebar_navigation do %>
+    <% if "products" == @current_controller && @taxon %>
+      <%= render "shared/filters" %>
+    <% else %>
+      <%= render "shared/taxonomies" %>
+    <% end %>
+  <% end %>
+<% end %>
+
+<h1><%= t("login_name") %></h1>
+
+<%= render :partial => 'shared/login' %>
+<%= t("or") %> <%= link_to t("create_a_new_account"), signup_path %> </p>

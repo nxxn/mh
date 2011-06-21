@@ -1,0 +1,13 @@
+<div id="footer">
+  <div class="left">
+    <%= hook :footer_left do %>
+    <p>
+      Powered by Nikita Gnotovs, +37126659556.
+    </p>
+    <% end %>
+  </div>
+  <div class="right">
+    <%= hook :footer_right %>
+  </div>
+</div>   
+<%= render 'shared/google_analytics' %>
