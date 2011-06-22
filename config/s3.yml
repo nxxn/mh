@@ -1,14 +1,14 @@
 development:
-  bucket: musthave
+  bucket: musthave-pr
   access_key_id: AKIAIBIBXKBQRTDU7MOQ
   secret_access_key: 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
 
 test:
-  bucket: musthave
+  bucket: musthave-pr
   access_key_id: AKIAIBIBXKBQRTDU7MOQ
   secret_access_key: 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
 
 production:
-  bucket: musthave
+  bucket: musthave-pr
   access_key_id: AKIAIBIBXKBQRTDU7MOQ
   secret_access_key: AEf6ouPES58XEkVUCG2IMOGeWvPYc3ppeKoshalty
