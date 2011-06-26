@@ -597,8 +597,10 @@ ru:
         unit: "LS"
         # These three are to override number.format and are optional
         separator: "."
-        delimiter: " "
+        delimiter: ""
         precision: 2
+    format:
+      separator: "."
   on_hand: "В наличии"
   operation: "Операция"
   option_type: "Товарная опция"
