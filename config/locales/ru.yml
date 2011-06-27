@@ -18,7 +18,27 @@ ru:
     new: "Новый"
     update: "Изменить"
   active: "Активен"
-  activerecord: 
+  activerecord:
+    errors:
+      models:
+        address:
+          attributes:
+            firstname:
+              blank: "не введен"
+            lastname:
+              blank: "не введен"
+            address1:
+              blank: "не введен"
+            city:
+              blank: "не введен"
+            zipcode:
+              blank: "не введен"
+            phone:
+              blank: "не введен"
+        order:
+          attributes:
+            email:
+              invalid: "неверный"
     attributes: 
       address: 
         address1: "Адрес"
@@ -448,7 +468,7 @@ ru:
   google_analytics_new: "Новая учетная запись Google Analytics"
   google_analytics_setting_description: "Управление Google Analytics ID"
   guest_checkout: "Гостевой заказ"
-  guest_user_account: "Оформить покупку как гость"
+  guest_user_account: "Оформление покупки"
   has_no_shipped_units: "не имеет отправленных единиц учёта"
   height: "Высота"
   hello_user: "Добро пожаловать"
@@ -501,12 +521,12 @@ ru:
   live: "Live"
   loading: "Загружается"
   locale_changed: "Язык изменён"
-  log_in: "Вход для клиентов"
+  log_in: "Войти"
   logged_in_as: "Пользователь"
   logged_in_succesfully: "Вы вошли в систему"
   logged_out: "Вы вышли из системы."
   login: "Логин"
-  login_as_existing: "Войти как покупатель"
+  login_as_existing: "Вход"
   login_failed: "Вход не выполнен."
   login_name: "Логин"
   logout: "Выйти"

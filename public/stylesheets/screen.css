@@ -913,7 +913,7 @@ ul.thumbnails li.selected { border-color: #999999; }
   clear: both;
 }
 #product-images #main-image {
-  min-height: 250px;
+  min-height: 270px;
   position: relative;
 }
 #product-images #main-image img {
@@ -1083,6 +1083,7 @@ table#cart h4 { margin-bottom: 0em; }
   float: left;
   width: 470px;
   margin: 10px;
+  margin-left: 65px;
 }
 #login #existing-customer h2 { margin-bottom: 0.25em; }
 #login #existing-customer p { margin-bottom: 10px; }

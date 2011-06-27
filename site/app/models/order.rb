@@ -115,7 +115,7 @@ class Order < ActiveRecord::Base
     end
 
     after_transition :to => 'complete', :do => :finalize!
-    after_transition :to => 'delivery', :do => :create_tax_charge!
+    
     after_transition :to => 'payment', :do => :create_shipment!
     after_transition :to => 'canceled', :do => :after_cancel
 
@@ -254,12 +254,7 @@ class Order < ActiveRecord::Base
     adjustments.tax.map(&:amount).sum
   end
 
-  # Creates a new tax charge if applicable.  Uses the highest possible matching rate and destroys any previous
-  # tax charges if they were created by rates that no longer apply.
-  def create_tax_charge!
-    adjustments.tax.each {|e| e.destroy }
-    TaxRate.match(ship_address).each {|r| r.create_adjustment(I18n.t(:tax), self, self, true) }
-  end
+  
 
   # Creates a new shipment (adjustment is created by shipment model)
   def create_shipment!
@@ -304,19 +299,12 @@ class Order < ActiveRecord::Base
 
   # Finalizes an in progress order after checkout is complete.
   # Called after transition to complete state when payments will have been processed
-  def finalize!
+ def finalize!
     update_attribute(:completed_at, Time.now)
     self.out_of_stock_items = InventoryUnit.assign_opening_inventory(self)
     # lock any optional adjustments (coupon promotions, etc.)
     adjustments.optional.each { |adjustment| adjustment.update_attribute("locked", true) }
     OrderMailer.confirm_email(self).deliver
-
-    self.state_events.create({
-      :previous_state => "cart",
-      :next_state     => "complete",
-      :name           => "order" ,
-      :user_id        => (User.respond_to?(:current) && User.current.try(:id)) || self.user_id
-    })
   end
 
 
