@@ -847,7 +847,7 @@ ul.thumbnails li {
   padding: 3px;
   border: 1px solid #ffffff;
   min-height: 50px;
-  width: 50px;
+  width: 40px;
   position: relative;
   top: 450px;
 }
@@ -932,7 +932,7 @@ ul.thumbnails li.selected { border-color: #999999; }
 #product-description {
   position: absolute;
   left: 200px;
-  top: 630px;
+  top: 580px;
   text-align: justify;
   display: block;
   float: left;
