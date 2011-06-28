@@ -303,6 +303,7 @@ body.two-col #content {
   text-align: center;
   display: inline;
   float: left;
+  height: 900px;
   width: 580px;
 }
 #header {
@@ -848,6 +849,7 @@ ul.thumbnails li {
   min-height: 50px;
   width: 50px;
   position: relative;
+  top: 450px;
 }
 ul.thumbnails li img {
   position: absolute;
@@ -914,7 +916,10 @@ ul.thumbnails li.selected { border-color: #999999; }
 }
 #product-images #main-image {
   min-height: 270px;
-  position: relative;
+  width: 500px;
+  position: absolute;
+  top: 155px;
+  left: 90px;
 }
 #product-images #main-image img {
   position: absolute;
@@ -926,11 +931,12 @@ ul.thumbnails li.selected { border-color: #999999; }
 }
 #product-description {
   position: absolute;
-  top: 370px;
+  left: 200px;
+  top: 650px;
   text-align: justify;
   display: block;
   float: left;
-  width: 293px;
+  width: 520px;
   padding-top: 15px;
   padding-right: 15px;
   margin-right: 15px;
