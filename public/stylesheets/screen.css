@@ -932,7 +932,7 @@ ul.thumbnails li.selected { border-color: #999999; }
 #product-description {
   position: absolute;
   left: 200px;
-  top: 650px;
+  top: 630px;
   text-align: justify;
   display: block;
   float: left;
