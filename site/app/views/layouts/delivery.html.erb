@@ -1,0 +1,24 @@
+<% @body_class = 'two-col' %>
+
+<% content_for :sidebar do %>
+  <%= hook :homepage_sidebar_navigation do %>
+    <% if "products" == @current_controller && @taxon %>
+      <%= render "shared/filters" %>
+    <% else %>
+      <%= render "shared/taxonomies" %>
+    <% end %>
+  <% end %>
+<% end %>
+
+<h1>Доставка</h1>
+<p class="delivery"><b>Варианты доставки:</b> <br>
+	1. Забрать товар на тейке<bR>
+2. Доставка по Пурвциемсу, Плявниекам, Теике бесплатна <bR>
+3. Доставка с курьером по Риге:<bR>
+	&nbsp;&nbsp;&nbsp;&nbsp;3.1 Левый берег (Пардаугава) - 2 LS<bR>
+	&nbsp;&nbsp;&nbsp;&nbsp;3.2 Правый берег - 1 LS<bR>
+    &nbsp;&nbsp;&nbsp;&nbsp;3.3 Болдерай, Вецмилгравис - 4 LS<bR>
+4. Доставка по почте в другие города Латвии  - 3 LS <bR>
+
+
+
