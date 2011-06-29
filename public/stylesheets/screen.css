@@ -1375,12 +1375,12 @@ p.cena_product {
     font-weight: bold;
     position: absolute;
     left: 460px;
-    top: 50px;
+    top: 30px;
 }
 #podrobnee {
     position: absolute;
     left: 450px;
-    top: 100px;
+    top: 70px;
 }
 .razmeri {
     margin-bottom: 20px;
