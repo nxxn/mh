@@ -1,4 +1,8 @@
 SpreeHerokuDemo::Application.routes.draw do
+	
+  get "pages/contacts"
+  get "pages/delivery"
+  get "pages/sizes"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
