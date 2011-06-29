@@ -1,0 +1,14 @@
+<% @body_class = 'two-col' %>
+
+<% content_for :sidebar do %>
+  <%= hook :homepage_sidebar_navigation do %>
+    <% if "products" == @current_controller && @taxon %>
+      <%= render "shared/filters" %>
+    <% else %>
+      <%= render "shared/taxonomies" %>
+    <% end %>
+  <% end %>
+<% end %>
+
+<h1>Размеры</h1>
+<img class="razmeri" width="550" src="/images/links/sizes.jpg">
