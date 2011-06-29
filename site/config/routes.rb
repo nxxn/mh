@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  # Add your extension routes here
+  get "pages/contacts"
+  get "pages/delivery"
+  get "pages/sizes"
 end
