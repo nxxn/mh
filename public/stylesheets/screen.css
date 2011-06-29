@@ -303,7 +303,7 @@ body.two-col #content {
   text-align: center;
   display: inline;
   float: left;
-  height: 1500px;
+  height: 100%;
   width: 580px;
 }
 #header {
