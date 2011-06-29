@@ -1,7 +1,5 @@
 SpreeHerokuDemo::Application.routes.draw do
-  match "pages/contacts" => "pages#contacts"
-  match "pages/delivery" => "pages#contacts"
-  match "pages/sizes" => "pages#contacts"
+  
  
   # The priority is based upon order of creation:
   # first created -> highest priority.
