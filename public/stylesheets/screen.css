@@ -316,6 +316,10 @@ body.two-col #content {
 #header a { color: #2e6ab1; }
 #header a:hover { color: #eeeeee; }
 #footer {
+  width: 300px;
+  height: 20px;
+  position: absolute;
+  top: 500px;
   padding-top: 2em;
   clear: both;
 }
@@ -918,17 +922,13 @@ ul.thumbnails li.selected { border-color: #999999; }
 #product-images #main-image {
   min-height: 270px;
   width: 500px;
-  position: absolute;
-  top: 155px;
-  left: 90px;
+  
 }
 #product-images #main-image img {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
+  top: 65px;
+  left: 190px;
+  
 }
 #product-description {
   position: absolute;
