@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get "pages/contacts"
-  get "pages/delivery"
-  get "pages/sizes"
+  match '/contacts' => 'pages#contacts'
+  match '/delivery' => 'pages#delivery'
+  match '/sizes' => 'pages#sizes'
 end
