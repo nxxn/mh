@@ -1,7 +1,7 @@
 SpreeHerokuDemo::Application.routes.draw do
-  #match "pages/contacts" => "pages#contacts"
- # match "pages/delivery" => "pages#delivery"
-  #match "pages/sizes" => "pages#sizes"
+  match '/contacts' => 'pages#contacts'
+  match '/delivery' => 'pages#delivery'
+  match '/sizes' => 'pages#sizes'
   
  
  
