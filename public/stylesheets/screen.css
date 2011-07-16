@@ -301,8 +301,9 @@ body.one-col #content {
 body.two-col #content {
   padding-top: 10px;
   text-align: center;
-  display: inline;
+  display: block;
   float: left;
+  height: 1900px;
   width: 580px;
 }
 #header {
@@ -315,6 +316,7 @@ body.two-col #content {
 #header a { color: #2e6ab1; }
 #header a:hover { color: #eeeeee; }
 #footer {
+  padding-left: 300px;
   padding-top: 2em;
   clear: both;
 }
@@ -493,8 +495,9 @@ ul#nav-bar li {
 }
 .cart-indicator a.full { background-image: url(../images/cart-full_x32.png); }
 .pagination {
-   position: relative;
-  left: 350px;
+  position: absolute;
+  left: 380px;
+  bottom: 85px;
   padding-top: 10px;
   text-align: right;
 }
@@ -846,8 +849,9 @@ ul.thumbnails li {
   padding: 3px;
   border: 1px solid #ffffff;
   min-height: 50px;
-  width: 50px;
+  width: 40px;
   position: relative;
+  top: 185px;
 }
 ul.thumbnails li img {
   position: absolute;
@@ -913,24 +917,24 @@ ul.thumbnails li.selected { border-color: #999999; }
   clear: both;
 }
 #product-images #main-image {
-  min-height: 250px;
-  position: relative;
+  min-height: 270px;
+  width: 500px;
+  
 }
 #product-images #main-image img {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
+  top: 65px;
+  left: 190px;
+  
 }
 #product-description {
   position: absolute;
-  top: 370px;
+  left: 200px;
+  top: 580px;
   text-align: justify;
   display: block;
   float: left;
-  width: 293px;
+  width: 520px;
   padding-top: 15px;
   padding-right: 15px;
   margin-right: 15px;
@@ -1083,6 +1087,7 @@ table#cart h4 { margin-bottom: 0em; }
   float: left;
   width: 470px;
   margin: 10px;
+  margin-left: 65px;
 }
 #login #existing-customer h2 { margin-bottom: 0.25em; }
 #login #existing-customer p { margin-bottom: 10px; }
@@ -1303,7 +1308,7 @@ p.summa {
 #show-cart {
   display: block;
   margin-left: 325px;
-  margin-top: 320px;
+  margin-top: 326px;
 }
 #show-product {
   padding: 10px;
@@ -1314,7 +1319,7 @@ p.summa {
  width: 300px;
  position: absolute;
  left: 500px;
- top: 100px;
+ top: 65px;
 }
 .links {
   margin-right: 10px;
@@ -1368,12 +1373,12 @@ p.cena_product {
     font-weight: bold;
     position: absolute;
     left: 460px;
-    top: 50px;
+    top: 30px;
 }
 #podrobnee {
     position: absolute;
     left: 450px;
-    top: 100px;
+    top: 70px;
 }
 .razmeri {
     margin-bottom: 20px;

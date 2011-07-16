@@ -9,6 +9,7 @@
 <% end %>
  
 <% if products.any? %>
+
 <ul class="product-listing">
   <% products.each do |product| %>
     <% if Spree::Config[:show_zero_stock_products] || product.has_stock? %>
@@ -19,10 +20,12 @@
         <div id="product-name"><%= link_to raw(product.name), product %></div>
         <div id="product-info">
   		  <%= hook :product_description do %>
-            <%= product_description(product) rescue t("product_has_no_description") %>
+            <%= product.meta_description rescue t("product_has_no_description") %>
            <% end %>
         </div>
-      <p class="cena_product">Цена: <br> <%= link_to product_price(product) %></p>
+      <p class="cena_product">Цена: <br> <%= link_to product_price(product) %>
+      	
+      </p>
       <div id="podrobnee">
       <button type='submit' class='large primary'>
       <%= link_to 'Подробнее', product %>

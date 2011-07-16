@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  # Add your extension routes here
+  #match '/contacts' => 'pages#contacts'
+  #match '/delivery' => 'pages#delivery'
+  #match '/sizes' => 'pages#sizes'
 end
