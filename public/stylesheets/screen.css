@@ -450,7 +450,7 @@ p img {
 .breadcrumbs ul li span { color: #333333; }
 div#login-bar {
   display: inline;
-  width: 940px;  
+  width: 950px;  
 }
 ul#language-bar {
   list-style-type: none;
@@ -477,16 +477,15 @@ ul#nav-bar {
   height: 50px;
 }
 div#users-path {
-  position: relative;
-  top: 15px;
+  padding-top: 15px;
+  margin-left: -10px;
 }
 #poisk {
   position: absolute;
   left: 950px;
 }
 #small-cart {
-  position: relative;
-  left: 150px;
+  
 }
 ul#nav-bar li {
   float: left;
@@ -497,11 +496,7 @@ ul#nav-bar li {
 }
 .cart-indicator a.full { background-image: url(../images/cart-full_x32.png); }
 .pagination {
-  position: absolute;
-  left: 380px;
-  bottom: 85px;
-  padding-top: 10px;
-  text-align: right;
+  text-align: center;
 }
 .pagination a.page {
   padding: 0px 5px;
@@ -799,9 +794,6 @@ p button img { margin: 0 5px 0 0; }
   color: #111111;
 }
 .product-listing li a.info {
-  position: absolute;
-  bottom: 30px;
-  right: 10px;
   padding: 5px;
   width: 100px;
   min-height: 60px;
@@ -814,38 +806,31 @@ p button img { margin: 0 5px 0 0; }
   background: #1b1b1b 
   color: #ffffff;
 }
+#product-picture {
+  width: 100px;
+  padding-top: 5px;
+  float: left;
+  
+}
 #product-name {
-  text-align: left;
+  text-align: center;
   font-weight: bold;
-  position: absolute;
-  top: 5px;
-  left: 120px; 
   width: 300px;
-  padding-top: 10px;
+  padding-top: 5px;
+  padding-left: 120px;
 }
 #product-info {
-  position: absolute; 
   text-align: justify;
   width: 300px;
-  top: 30px;
-  left: 120px;
-  padding-top: 10px;
-}
-#product-picture {
-  position: absolute;
-  width: 100px;
-  top: 30px;
-}
-.price-selling {
- position: absolute;
- width: 50px;
- bottom: 80px;
- left: 450px;
+  padding-left: 10px;
+  padding-top: 2px;  
 }
 ul.thumbnails {
   margin: 0;
   padding: 0;
   list-style: none;
+  padding-top: 15px;
+  padding-left: 5px;
 }
 ul.thumbnails li {
   float: left;
@@ -853,17 +838,9 @@ ul.thumbnails li {
   padding: 3px;
   border: 1px solid #ffffff;
   min-height: 50px;
-  width: 40px;
-  position: relative;
-  left: 5px;
-  top: 165px;
+  width: 40px;  
 }
 ul.thumbnails li img {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   margin: auto;
 }
 ul.thumbnails li:hover { border-color: #cccccc; }
@@ -927,32 +904,22 @@ ul.thumbnails li.selected { border-color: #999999; }
   
 }
 #product-images #main-image img {
-  position: absolute;
-  top: 75px;
-  left: 190px;
+  padding-top: 14px;
+  padding-left: 5px;
   
 }
-#product-description {
-  position: absolute;
-  left: 190px;
-  top: 575px;
-  text-align: justify;
-  display: block;
-  float: left;
-  width: 540px;
-}
+
 #cart-form {
   display: inline;
   float: left;
   width: 270px;
 }
-#korzinka {
-  display: inline;
-  position : absolute;
+#product-description {
+  padding-top: 15px;
+  text-align: justify;
+  display: block;
   float: left;
-  width: 270px;
-  left: 460px;
-  top: 5px;
+  width: 540px;
 }
 #taxon-crumbs {
   display: inline;
@@ -966,14 +933,14 @@ ul.thumbnails li.selected { border-color: #999999; }
 }
 dl.table-display {
   margin: 0;
-  padding: 0;
+  padding-left: 7px;
 }
 dl.table-display dt {
   text-align: left;
   float: left;
   margin: 0;
   padding: 5px;
-  padding-left: 15px;
+  padding-left: 20px;
   border-top: 1px solid #dddddd;
 }
 dl.table-display dd {
@@ -984,7 +951,7 @@ dl.table-display dd {
   border-top: 1px solid #dddddd;
 }
 dl.table-display dt { width: 50px; }
-dl.table-display dd { width: 180px; }
+dl.table-display dd { width: 150px; }
 .no_margin_or_padding {
   margin: 0;
   padding: 0;
@@ -1199,8 +1166,8 @@ div#checkout #checkout_form_delivery { background-image: url("../images/steps/3.
 div#checkout #checkout_form_address #billing label {
   width: 190px;
   float: left;
-  padding-right: 10px;
-  text-align: right;
+  padding-left: 55px;
+  text-align: center;
 }
 div#checkout #checkout_form_address #shipping label {
   width: 190px;
@@ -1261,15 +1228,7 @@ div#checkout #payment-methods li.last {
 div#checkout #checkout-summary {
   background-color: #c3c9df;
   float: right;
-  margin-top: 10px;
-  padding: 20px;
-  width: 180px;
-}
-div#checkout #checkout-summary {
-  background-color: #c3c9df;
-  float: right;
-  margin-top: 10px;
-  padding: 20px;
+  padding: 5px;
   width: 180px;
 }
 .logotip {
@@ -1287,12 +1246,14 @@ div#checkout #checkout-summary {
 }
 
 #empty-cart, #sidebar-cart {
+  position: relative;
+  height: 100%;
+  width: 180px;
+  margin-left: 765px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  position: absolute;
-  left: 760px;
-  width: 170px;
+  
 }
 #sidebar-cart ul{  
 
@@ -1312,15 +1273,14 @@ p.summa {
 }
 #show-cart {
   display: block;
-  margin-left: 325px;
-  margin-top: 300px;
+  margin-left: 322px;
+  margin-top: 270px;
 }
 
 #infa {
  width: 300px;
- position: absolute;
- left: 500px;
- top: 75px;
+ padding-left: 300px;
+ padding-top: 14px;
 }
 .links {
   margin-right: 10px;
@@ -1337,7 +1297,8 @@ p.summa {
 }
 .fieldradios {
 	text-align: left;
-	margin-left: 10px;
+	margin-left: 0px;
+	padding-top: 5px;
 }
 #order_details {
 	margin-left: 10px;
@@ -1372,14 +1333,11 @@ p.contacts, p.delivery {
 }
 p.cena_product {
     font-weight: bold;
-    position: absolute;
-    left: 460px;
-    top: 40px;
+    padding-left: 425px;
 }
 #podrobnee {
-    position: absolute;
-    left: 450px;
-    top:  90px;
+   padding-left: 425px;
+
 }
 .razmeri {
     margin-bottom: 20px;

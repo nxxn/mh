@@ -5,7 +5,7 @@
   <%= checkout_progress %>
   <h1 class="check"><%= t("checkout")%></h1>
   
-  <br clear="left" />
+  
   <%= render "shared/error_messages", :target => @order %>
   <%= hook :checkout_summary_box do %>
     <div id="checkout-summary">

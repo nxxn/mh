@@ -15,9 +15,9 @@
     <% if Spree::Config[:show_zero_stock_products] || product.has_stock? %>
     
     <li id="product_<%= product.id %>">
-      	
+      <div id="product-name"><%= link_to raw(product.name), product %></div>	
       <div id="product-picture">  <%= link_to small_image(product), product %> </div>
-        <div id="product-name"><%= link_to raw(product.name), product %></div>
+        
         <div id="product-info">
   		  <%= hook :product_description do %>
             <%= product.meta_description rescue t("product_has_no_description") %>
