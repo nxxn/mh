@@ -465,6 +465,7 @@ ul#language-bar li {
 }
 ul#language-bar strong { font-weight: normal; }
 ul#nav-bar {
+  position: relative;
   display: inline;
   line-height: 50px;
   float: right;
@@ -482,7 +483,7 @@ div#users-path {
 }
 #poisk {
   position: absolute;
-  left: 950px;
+  left: 710px;
 }
 #small-cart {
   
