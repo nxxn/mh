@@ -1017,7 +1017,7 @@ ru:
   store: "В магазин"
   street_address: "Адрес"
   street_address_2: "Адрес (строка 2)"
-  subtotal: "Подитог"
+  subtotal: "Подытог"
   subtract: "Вычет"
   successfully_created: "%{resource} был успешно создан!"
   successfully_removed: "%{resource} был успешно удален!"

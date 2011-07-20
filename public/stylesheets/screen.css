@@ -1057,7 +1057,7 @@ table#cart h4 { margin-bottom: 0em; }
   float: left;
   width: 470px;
   margin: 10px;
-  margin-left: 65px;
+  margin-left: 30px;
 }
 #login #existing-customer h2 { margin-bottom: 0.25em; }
 #login #existing-customer p { margin-bottom: 10px; }
@@ -1236,7 +1236,7 @@ div#checkout #checkout-summary {
   position: relative;
   padding-top: 10px;
 }
-.logotip, ul#nav-bar, #sidebar, #content, #empty-cart, #sidebar-cart {
+.logotip, ul#nav-bar, #sidebar, #content, #empty-cart, #sidebar-cart, #social {
   margin: 5px;
   border: 1px solid #C0C0C0;
   background-color: #FFFFFF;
@@ -1341,4 +1341,19 @@ p.cena_product {
 }
 .razmeri {
     margin-bottom: 20px;
+}
+div#guest_checkout, div#existing-customer {
+	text-align: center;
+}
+#social {
+  position: relative;
+  height: 100%;
+  width: 180px;
+  margin-left: 765px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+#social iframe {
+	padding-right: 20px;
 }
