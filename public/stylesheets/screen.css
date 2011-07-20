@@ -323,12 +323,12 @@ body.two-col #content h1 {
   clear: both;
 }
 #footer div.left {
-
+text-align: center;
     width: 55%;
 }
 #footer div.right {
   width: 45%;
-  text-align: right;
+  text-align: center;
 }
 h1 { font-size: 2.5em; }
 .form-buttons, .clear { clear: both; }
@@ -1274,8 +1274,9 @@ p.summa {
 }
 #show-cart {
   display: block;
-  margin-left: 322px;
-  margin-top: 270px;
+  position: absolute;
+  left: 512px;
+  top: 347px;
 }
 
 #infa {
@@ -1357,4 +1358,8 @@ div#guest_checkout, div#existing-customer {
 }
 #social iframe {
 	padding-right: 20px;
+}
+#kol-vo {
+	padding-left: 327px;
+	padding-top: 240px;
 }
