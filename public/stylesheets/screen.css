@@ -324,10 +324,10 @@ body.two-col #content h1 {
 }
 #footer div.left {
     text-align: center;
-    width: 55%;
+    width: 50%;
 }
 #footer div.right {
-  width: 45%;
+  width: 50%;
   text-align: center;
 }
 h1 { font-size: 2.5em; }
