@@ -947,10 +947,10 @@ dl.table-display dd {
   float: left;
   margin: 0;
   padding: 5px;
-  padding-left: 10px;
+  padding-left: 5px;
   border-top: 1px solid #dddddd;
 }
-dl.table-display dt { width: 90px; }
+dl.table-display dt { width: 80px; }
 dl.table-display dd { width: 150px; }
 .no_margin_or_padding {
   margin: 0;
@@ -1360,6 +1360,6 @@ div#guest_checkout, div#existing-customer {
 #kol-vo {
 	font-weight: bold;
 	padding-left: 320px;
-	padding-top: 220px;
+	padding-top: 269px;
 	
 }

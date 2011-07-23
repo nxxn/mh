@@ -1,7 +1,7 @@
 class Image < Asset
   validate :no_attachement_errors
   has_attached_file :attachment, 
-                    :styles => { :mini => '48x48>', :small => '100x100>', :product => '300x500>', :large => '600x600>' }, 
+                    :styles => { :mini => '48x48>', :small => '100x100>', :product => '300x450>', :large => '600x600>' }, 
                     :default_style => :product,
                     :url => "/assets/products/:id/:style/:basename.:extension",
                     :path => ":rails_root/public/assets/products/:id/:style/:basename.:extension"
