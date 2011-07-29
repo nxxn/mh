@@ -656,7 +656,7 @@ ru:
     complete: "Завершение"
     confirm: "Подтверждение"
     delivery: "Доставка"
-    payment: "Оплата"
+    payment: "Купон"
     resumed: "Возобновлён"
     returned: "Возвращён"
   order_summary: "Сводка по заказу"
