@@ -1333,10 +1333,14 @@ p.contacts, p.delivery {
 }
 p.cena_product {
     font-weight: bold;
-    padding-left: 425px;
+    position: absolute;
+    left: 450px;
+    top: 40px;
 }
 #podrobnee {
-   padding-left: 425px;
+   position: absolute;
+   left: 435px;
+   top: 90px;
 
 }
 .razmeri {
