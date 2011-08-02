@@ -23,13 +23,14 @@
             <%= product.meta_description rescue t("product_has_no_description") %>
            <% end %>
         </div>
-      <p class="cena_product">Цена: <br> <%= link_to product_price(product) %>
+      <p class="cena_product">Цена: <br> <%= link_to product_price(product),product %>
       	
       </p>
       <div id="podrobnee">
-      <button type='submit' class='large primary'>
-      <%= link_to 'Подробнее', product %>
-    </button>
+      	
+      	<%= button_to "Подробнее", product, :class => "large primary", :method => :get %>
+      	
+     
           </div>
         
       </li>
