@@ -954,7 +954,8 @@ table.table-display td.svojstvo {
 table.table-display td.znachenie {
   text-align: left;
   margin: 0;
-  width: 155px;  
+  width: 155px; 
+  padding-left: 0px; 
 }
 .no_margin_or_padding {
   margin: 0;
