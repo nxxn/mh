@@ -956,6 +956,7 @@ table.table-display td.znachenie {
   margin: 0;
   width: 155px; 
   padding-left: 0px; 
+  padding-right: 0px; 
 }
 .no_margin_or_padding {
   margin: 0;
