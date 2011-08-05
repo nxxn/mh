@@ -1,8 +1,10 @@
 <% unless @product_properties.empty? %>
-<dl id="product-properties" class="table-display">
+<table id="product-properties" class="table-display">
 <% for product_property in @product_properties %>
-  <dt><%= product_property.property.presentation %></dt>
-  <dd><%= product_property.value %></dd>
+<tr>
+  <td class="svojstvo"><%= product_property.property.presentation %></td>
+  <td class="znachenie"><%= product_property.value %></td>
+</tr>
 <% end %>
-</dl>
+</table>
 <% end %>
