@@ -37,7 +37,7 @@
 </div>
 
 <div id="kol-vo">
-<b>Доступное количество:</b>  <%= @product.on_hand %>
+<b><%= t(:available_quantity) %>:</b>  <%= @product.on_hand %>
 </div>
 <div id="show-cart">
 	<%= hook :cart_form do %>

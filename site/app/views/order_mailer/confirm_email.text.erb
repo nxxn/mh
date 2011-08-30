@@ -1,3 +1,24 @@
+Cienījamais Pircēj,
+
+Mēs saņēmam Jūsu pasūtījumu un sazināsimies ar Jums tuvākajā laikā.
+
+============================================================
+Jūsu pasūtījums:
+============================================================
+<% for item in @order.line_items %>
+<%=item.variant.sku %> <%=item.variant.product.name%> <%= variant_options(item.variant) %> (<%=item.quantity%>) @ <%= number_to_currency item.price %> = <%= number_to_currency(item.price * item.quantity) %>
+<% end %>
+============================================================
+Starpsumma: <%= number_to_currency @order.item_total %>
+<% @order.adjustments.each do |adjustment| %>
+<%= "#{adjustment.label}: #{number_to_currency adjustment.amount}"%>
+<% end %>
+Pasūtījuma summa: <%= number_to_currency @order.total %>
+
+
+Paldies par Jūsu pasūtījumu!
+
+
 Дорогой Покупатель,
 
 Мы получили Ваш заказ и свяжемся с Вами в ближайшее время.

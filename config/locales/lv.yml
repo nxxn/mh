@@ -603,17 +603,17 @@ lv:
   order_processed_successfully: "Jūsu pasūtījums ir apstrādāts veiksmīgi"
   order_state: # keys correspond to Checkout state names:
     # keys correspond to Checkout state names: 
-    address: address
-    adjustments: adjustments
-    awaiting_return: awaiting return
-    canceled: canceled
-    cart: cart
-    complete: complete
-    confirm: confirm
-    delivery: delivery
-    payment: payment
-    resumed: resumed
-    returned: returned
+    address: "Adrese"
+    adjustments: "Korekcijas"
+    awaiting_return: "Gaida atgrieizi"
+    canceled: "Atcelts"
+    cart: "Grozs"
+    complete: "Nobeigums"
+    confirm: "Apstiprinājums"
+    delivery: "Piegāde"
+    payment: "Kupons"
+    resumed: "Atjaunots"
+    returned: "Atgriezts"
   order_summary: "Pasūtījuma apkopojums"
   order_sure_want_to: "Vai esiet pārliecināts, ka vēlaties %{event} šo pasūtījumu?"
   order_total: "Kopējais pasūtījums"
@@ -1069,3 +1069,6 @@ lv:
   zone_based: "Uz zonas balstīts"
   zone_setting_description: "Valstu, rajonu vai citu zonu kolekcija, kuru izmantot dažādās kalkulācijās."
   zones: "Zonas"
+  to_cart: "Iepirkuma grozā"
+  available_quantity: "Pieejamais daudzums"
+  more: "Sīkak"

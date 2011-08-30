@@ -54,10 +54,10 @@ end
     
 
     <% if current_order.nil? || current_order.line_items.count == 0 %>
-      <div id="empty-cart"><img src="../../../images/cart-empty_x32.png"><p> Ваша корзина пуста</p></div>
+      <div id="empty-cart"><img src="../../../images/cart-empty_x32.png"><p>  <%= t(:your_cart_is_empty) %></p></div>
     <% else %>
     <div id="sidebar-cart">
-    	<img src="../../../images/cart-full_x32.png"> <p> Корзина</p>
+    	<img src="../../../images/cart-full_x32.png"> <p> <%= t(:cart) %></p>
     <ul>
       <br>
       <% current_order.line_items.each do |line_item| %>
@@ -71,10 +71,10 @@ end
       <% end %>
       </ul>
     
-     <p class="summa"> Всего: <%= " #{current_order.total} LS " %></p>
+     <p class="summa"> <%= t(:total) %> <%= " #{current_order.total} LS " %></p>
      
      
-     <%= button_to "В корзину", cart_path, :method => :get %>
+     <%= button_to t("to_cart") , cart_path, :method => :get %>
      
     
      

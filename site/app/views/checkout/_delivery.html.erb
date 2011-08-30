@@ -19,7 +19,7 @@
           <label>
             <%= radio_button(:order, :shipping_method_id, shipping_method[:id]) %>
             <%= shipping_method[:name] %> <%= number_to_currency shipping_method[:cost] %>
-          </label><br />
+          </label><br /><br />
         <% end %>
       </p>
     </div>
