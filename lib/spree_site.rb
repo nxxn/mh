@@ -19,7 +19,7 @@ module SpreeSite
       
     end
         
-    
+
       
     config.to_prepare &method(:activate).to_proc
       

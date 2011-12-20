@@ -4,7 +4,7 @@
 	  <li<%= ' class="current"' if @taxon && @taxon == taxonomy.root %>> <div class="sidebar_taxon"><%=taxonomy.name.singularize %></div></li>
 	  <% taxonomy.root.children.each do |taxon| %>
 	    <li<%= ' class="current"' if @taxon and ([@taxon] + @taxon.ancestors).include?(taxon) %>><%= link_to taxon.name, seo_url(taxon) %></li>
-	    
+
 	  <% end %>
 	</ul>
 <% end %>

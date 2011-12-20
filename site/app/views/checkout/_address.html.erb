@@ -76,18 +76,24 @@ div.inner input[type=text], div.inner select { width: 80%; }
       <p id="bphone" class="field">
         <%= bill_form.label :phone, t(:phone) %>
         <%= bill_form.text_field :phone, :class => 'required' %><span class="req">*</span>
-          </p>
-          <% if Spree::Config[:alternative_billing_phone] %>
+      </p>
+        <% if Spree::Config[:alternative_billing_phone] %>
             <p id="baltphone">
               <%= bill_form.label :alternative_phone, t(:alternative_phone) %>
               <%= bill_form.text_field :alternative_phone %>
             </p>
-          <% end %>
+        <% end %>
+
+
+
+      <p id="bphone" class="number_correct">
+        <span><%= t(:phone_is_correct) %></span>
+      </p>
     </div>
   <% end %>
 </fieldset>
 
 <hr class="space" />
 <div class="form-buttons">
-  <input type="submit" class="continue button primary" value="<%=t("save_and_continue") %>" />
+  <input type="submit" class="button_primary" value="<%=t("save_and_continue") %>" />
 </div>

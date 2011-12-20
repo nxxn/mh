@@ -380,23 +380,23 @@ p img {
   border-right: 1px solid #eeeeee;
 }
 .navigation-list {
-	
+
   list-style: none;
   margin: 0 0 0 0;
-  
+
 }
-.navigation-list li { margin: 0; 
-	
+.navigation-list li { margin: 0;
+
 }
 .navigation-list li a {
-	
-  
+
+
   cursor: pointer !important;
   text-decoration: none;
   color: #333333;
   display: block;
   line-height: 2.5em;
-  
+
   width: 157px;
   white-space: nowrap;
   overflow: hidden;
@@ -404,7 +404,7 @@ p img {
 .navigation-list li a:hover { background: url(../images/menu-hover.png) right center no-repeat; }
 .navigation-list li.current { width: 157px;   }
 .navigation-list li.current a {
-  
+
   width: 157px;
   background: url(../images/menu-current.png) right center no-repeat;
   white-space: nowrap;
@@ -450,7 +450,7 @@ p img {
 .breadcrumbs ul li span { color: #333333; }
 div#login-bar {
   display: inline;
-  width: 950px;  
+  width: 950px;
 }
 ul#language-bar {
   list-style-type: none;
@@ -474,7 +474,7 @@ ul#nav-bar {
   list-style: none;
   margin: 0;
   padding: 0;
-  width: 940px; 
+  width: 940px;
   height: 50px;
 }
 div#users-path {
@@ -483,10 +483,10 @@ div#users-path {
 }
 #poisk {
   position: absolute;
-  left: 710px;
+  left: 690px;
 }
 #small-cart {
-  
+
 }
 ul#nav-bar li {
   float: left;
@@ -658,7 +658,7 @@ ul#nav-bar li {
   margin-right: 25px;
   border-right: 1px solid #eeeeee;
 }
-button, a.button, input.button {
+button, a.button, input.button, .button_checkout {
   -moz-border-radius: 0.3em;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
@@ -681,7 +681,7 @@ button, a.button, input.button {
   overflow: visible;
   padding: 2px 2px;
   text-decoration: none;
-  
+
   width: auto;
   height: auto;
   cursor: pointer;
@@ -800,19 +800,19 @@ p button img { margin: 0 5px 0 0; }
   width: 100px;
   min-height: 60px;
   background: #ffffff;
-  
+
 }
 .product-listing li a.info span { display: block; }
 .product-listing li:hover { border-color: #1b1b1b; }
 .product-listing li:hover a.info {
-  background: #1b1b1b 
+  background: #1b1b1b
   color: #ffffff;
 }
 #product-picture {
   width: 100px;
   padding-top: 5px;
   float: left;
-  
+
 }
 #product-name {
   text-align: center;
@@ -825,7 +825,7 @@ p button img { margin: 0 5px 0 0; }
   text-align: justify;
   width: 400px;
   padding-left: 10px;
-  padding-top: 2px;  
+  padding-top: 2px;
 }
 ul.thumbnails {
   margin: 0;
@@ -839,7 +839,7 @@ ul.thumbnails li {
   margin-right: 5px;
   padding: 3px;
   border: 1px solid #ffffff;
-  line-height: 1;   
+  line-height: 1;
 }
 ul.thumbnails li img {
   margin: auto;
@@ -902,12 +902,12 @@ ul.thumbnails li.selected { border-color: #999999; }
 #product-images #main-image {
   min-height: 270px;
   width: 500px;
-  
+
 }
 #product-images #main-image img {
   padding-top: 14px;
   padding-left: 5px;
-  
+
 }
 
 #cart-form {
@@ -935,27 +935,27 @@ ul.thumbnails li.selected { border-color: #999999; }
 table.table-display {
   margin: 0;
   padding-left: 7px;
-  border-top: 1px solid #dddddd; 
+  border-top: 1px solid #dddddd;
 }
 table.table-display tr {
   text-align: left;
   margin: 0;
   padding: 5px;
-  width: 255px; 
-  border-bottom: 1px solid #dddddd; 
+  width: 255px;
+  border-bottom: 1px solid #dddddd;
 }
 table.table-display td.svojstvo {
   font-weight: bold;
   text-align: left;
   margin: 0;
-  width: 92px; 
-  padding-left: 10px; 
+  width: 92px;
+  padding-left: 10px;
 }
 table.table-display td.znachenie {
   text-align: left;
   margin: 0;
-  width: 155px; 
-  padding-left: 0px; 
+  width: 155px;
+  padding-left: 0px;
 }
 .no_margin_or_padding {
   margin: 0;
@@ -1258,9 +1258,9 @@ div#checkout #checkout-summary {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  
+
 }
-#sidebar-cart ul{  
+#sidebar-cart ul{
 
   text-align: left;
   border-top: 1px dashed black;
@@ -1324,17 +1324,17 @@ p.contacts, p.delivery {
 .logotip a.delivery {
 	position: absolute;
 	top: +158px;
-	left: 39px;	
+	left: 39px;
 }
 .logotip a.sizes {
 	position: absolute;
 	top: +193px;
-	left: 28px;	
+	left: 28px;
 }
 .logotip a.contacts {
 	position: absolute;
 	top: +225px;
-	left: 16px;	
+	left: 16px;
 }
 p.cena_product {
     font-weight: bold;
@@ -1366,5 +1366,67 @@ div#guest_checkout, div#existing-customer {
 #kol-vo {
 	font-weight: bold;
 	padding-left: 320px;
-	padding-top: 187px;	
+	padding-top: 187px;
+}
+.search {
+    width: 80px;
+    text-align: center;
+}
+.more {
+    width: 80px;
+    text-align: center;
+}
+.buy_it {
+    width: 180px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10pt;
+}
+.buy_it img {
+    padding-right: 5px;
+}
+.links .button{
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+.links .button img{
+    padding-right: 5px;
+}
+.continue .button {
+    padding: 7px 5px 5px 5px;
+    height: 22px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+div .continue {
+    margin-top: 52px;
+}
+div#subtotal h3 {
+    margin-left: 140px;
+}
+.button_primary {
+    font-weight: bold;
+    padding: 5px;
+}
+.number_correct {
+    clear: both;
+    font-size: 10px;
+    color: red;
+    padding-left: 65px;
+}
+div.form-buttons .button_primary {
+    position: absolute;
+    left: 71px;
+}
+div.delivery, div.coupon {
+    margin-bottom: 10px;
+}
+div.delivery .button , div.coupon .button{
+    font-weight: bold;
+    padding: 5px;
+}
+div#podrobnee .button {
+    padding: 0 5px 0 5px;
+    margin-left: 5px;
 }

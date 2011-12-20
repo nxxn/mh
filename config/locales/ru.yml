@@ -1,8 +1,5 @@
----
-ru: 
-  'no': "Нет"
-  'yes': "Да"
-  5_biggest_spenders: "5 крупнейших покупателей"
+ru:
+  biggest_spenders: "5 крупнейших покупателей"
   a_copy_of_all_mail_will_be_sent_to_the_following_addresses: "Копии всех писем будут отосланы на следующие адреса"
   abbreviation: "Аббревиатура"
   access_denied: "Доступ запрещен"
@@ -1115,4 +1112,7 @@ ru:
   to_cart: "В корзину"
   available_quantity: "Доступное количество"
   more: "Подробнее"
+  phone_is_correct: "Убедитесь, что номер правильный!"
+  if_coupon: "Если у Вас есть купон, введите его код ниже."
+  if_no_coupon: "Если купон отсутствует, то просто нажмите"
   

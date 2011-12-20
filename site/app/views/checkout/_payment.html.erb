@@ -12,15 +12,15 @@
 
 
 
- <p> Если у Вас есть купон, введите его код ниже. </p>
+ <p><%= t(:if_coupon) %> </p>
     <p>
       <label><%= t(:coupon_code) %></label><br />
       <%= form.text_field :coupon_code, :size => 19 %>
     </p>
-   <p> Если купон отсутствует, то просто нажмите <b> "Продолжить". </b> </p>
+   <p><%= t(:if_no_coupon) %> "<b><%= t(:continue) %></b>" </p>
 
 
 <hr class="space" />
-<div class="form-buttons">
-  <input type="submit" class="continue button primary" value="<%=t("save_and_continue") %>" />
+<div class="coupon">
+  <input type="submit" class="button" value="<%=t("save_and_continue") %>" />
 </div>

@@ -1,15 +1,12 @@
----
-lv: 
-  'no': "Nē"
-  'yes': "Jā"
-  5_biggest_spenders: "5 lielākie klienti"
+lv:
+  biggest_spenders: "5 lielākie klienti"
   a_copy_of_all_mail_will_be_sent_to_the_following_addresses: "Visi e-pasti tiks pārsūtīti arī uz šīm adresēm"
   abbreviation: "Saīsinājums"
   access_denied: "Pieeja liegta"
   account: "Konts"
   account_updated: "Konts izmainīts!"
   action: "Darbība"
-  actions: 
+  actions:
     cancel: "Atcelt"
     create: "Izveidot"
     destroy: "Dzēst"
@@ -576,6 +573,23 @@ lv:
     product_not_deleted: "Produktu neizdevās izdzēst"
     variant_deleted: "Variants ir izdzēsts"
     variant_not_deleted: "Variants nav izdzēsts"
+  number:
+    # Used in number_to_currency()
+    currency:
+      format:
+        # Формат отображения валюты и обозначение самой валюты
+        #
+        #
+        # Where is the currency sign? %u is the currency unit, %n the number (default: $5.00)
+        format: "%n %u"
+        negative_format: "- %n %u"
+        unit: "LS"
+        # These three are to override number.format and are optional
+        separator: "."
+        delimiter: ""
+        precision: 2
+    format:
+      separator: "."
   on_hand: "Ir uz vietas"
   operation: Operation
   option_type: "Option Type"
@@ -1072,3 +1086,6 @@ lv:
   to_cart: "Iepirkuma grozā"
   available_quantity: "Pieejamais daudzums"
   more: "Sīkak"
+  phone_is_correct: "Pārliecināties, ka numurs ir pareizs!"
+  if_coupon: "Если у Вас есть купон, введите его код ниже."
+  if_no_coupon: "Если купон отсутствует, то просто нажмите"
