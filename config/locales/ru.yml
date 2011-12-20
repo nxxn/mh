@@ -301,7 +301,7 @@ ru:
   best_selling_taxons: "Таксоны-бестселлеры"
   bill_address: "Платёжный адрес"
   billing: "Биллинг"
-  billing_address: "Платёжный адрес"
+  billing_address: "Адрес доставки"
   both: "везде"
   by_day: "за день"
   calculator: "Калькулятор"
