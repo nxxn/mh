@@ -79,7 +79,7 @@ class Admin::ProductsController < Admin::BaseController
 
   def collection
     return @collection if @collection.present?
-    scopes = ['group_by_products_id']
+    scopes = ['ascend_by_permalink']
 
     unless request.xhr?
       # Note: the SL scopes are on/off switches, so we need to select "not_deleted" explicitly if the switch is off
