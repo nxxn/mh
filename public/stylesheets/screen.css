@@ -1435,3 +1435,4 @@ div#podrobnee .button {
     width: 304px;
 }
 ::-webkit-input-placeholder { text-align:center; }
+input:-moz-placeholder { text-align:right; }
