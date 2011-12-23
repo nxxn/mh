@@ -1430,3 +1430,8 @@ div#podrobnee .button {
     padding: 0 5px 0 5px;
     margin-left: 5px;
 }
+.comments {
+    height: 70px;
+    width: 304px;
+}
+::-webkit-input-placeholder { text-align:center; }

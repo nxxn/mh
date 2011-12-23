@@ -1089,3 +1089,5 @@ lv:
   phone_is_correct: "Pārliecināties, ka numurs ir pareizs!"
   if_coupon: "Если у Вас есть купон, введите его код ниже."
   if_no_coupon: "Если купон отсутствует, то просто нажмите"
+  comments: "Komentāri"
+  delivery_time: "Norādiet vēlamo piegādes laiku un citus komentārus!"

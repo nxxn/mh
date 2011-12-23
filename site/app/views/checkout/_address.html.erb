@@ -83,11 +83,12 @@ div.inner input[type=text], div.inner select { width: 80%; }
               <%= bill_form.text_field :alternative_phone %>
             </p>
         <% end %>
-
-
-
       <p id="bphone" class="number_correct">
         <span><%= t(:phone_is_correct) %></span>
+      </p>
+      <p id="bcomment" class="field">
+        <%= bill_form.label :comments, t(:comments) %>
+        <%= bill_form.text_area :comments, :class => :comments, :placeholder => t(:delivery_time) %>
       </p>
     </div>
   <% end %>
