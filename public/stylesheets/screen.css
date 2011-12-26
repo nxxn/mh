@@ -1336,17 +1336,26 @@ p.contacts, p.delivery {
 	top: +225px;
 	left: 16px;
 }
-p.cena_product {
+span.price_product {
     font-weight: bold;
     position: absolute;
     left: 450px;
     top: 40px;
 }
-#podrobnee {
+#podrobnee{
    position: absolute;
    left: 428px;
    top: 90px;
 
+}
+#add_to_cart {
+   position: absolute;
+   left: 180px;
+   top: 110px;
+}
+#add_to_cart button {
+   font-size: 8pt;
+    padding: 0;
 }
 .razmeri {
     margin-bottom: 20px;

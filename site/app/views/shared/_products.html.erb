@@ -23,15 +23,49 @@
             <%= product.meta_description rescue t("product_has_no_description") %>
            <% end %>
         </div>
-      <p class="cena_product"><%= t(:price) %>: <br> <%= link_to product_price(product),product %>
+
       	
-      </p>
+
       <div id="podrobnee">
       	<%= link_to t("more"), product, :class => 'button' %>
      
       </div>
+        <% @product = @product ||= product %>
+<%= form_for :order, :url => populate_orders_url do |f| %>
+<%= hook :inside_product_cart_form do %>
 
-        
+<div id="forma_korz" align="left">
+  <% if product_price(product) %>
+    <%= hook :product_price do %>
+
+        <span class="price_product">
+          <%= t(:price) %>
+          <br />
+          <%= product_price(product) %>
+        </span>
+
+    <% end %>
+  <% end %>
+
+
+  <% if product.has_stock? || Spree::Config[:allow_backorders] %>
+    <%= text_field_tag (product.has_variants? ? :quantity : "variants[#{product.master.id}]"),
+      1, :class => "title", :size => 3, :style => 'display: none' %>
+    &nbsp;  <br /><br />
+     <div id="add_to_cart">
+    <button type='submit' class='buy_it'>
+      <%= image_tag('/images/add-to-cart.png') + t('add_to_cart') %>
+    </button>
+      </div>
+  <% else %>
+    <%= content_tag('strong', t('out_of_stock')) %>
+  <% end %>
+
+<% end %>
+<% end %>
+
+
+</div>
       </li>
     <% end %>
   <% end %>
