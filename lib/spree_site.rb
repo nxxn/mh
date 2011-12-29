@@ -1,10 +1,13 @@
+require 'site_hooks'
+
 module SpreeSite
   class Engine < Rails::Engine
     def self.activate
+      puts "test"
       Dir.glob(File.join(File.dirname(__FILE__), "../app/**/*_decorator*.rb")) do |c|
         Rails.configuration.cache_classes ? require(c) : load(c)
       end
-      
+
       ActiveSupport::Notifications.subscribe('spree.order.contents_changed') do |*args|
         event = ActiveSupport::Notifications::Event.new(*args)
         order = event.payload[:order]
@@ -16,12 +19,12 @@ module SpreeSite
           end
         end
       end
-      
-    end
-        
 
-      
+    end
+
+
+
     config.to_prepare &method(:activate).to_proc
-      
+
   end
 end
