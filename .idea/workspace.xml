@@ -37,8 +37,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/site/app/views/admin/orders/_line_item.html.erb" />
-        <option value="$PROJECT_DIR$/site/app/views/admin/orders/show.html.erb" />
         <option value="$PROJECT_DIR$/site/app/controllers/admin/products_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20111220182414_add_comments_to_adresses.rb" />
         <option value="$PROJECT_DIR$/site/app/views/checkout/_address.html.erb" />
@@ -53,6 +51,8 @@
         <option value="$PROJECT_DIR$/lib/spree_site.rb" />
         <option value="$PROJECT_DIR$/config/initializers/whatever.rb" />
         <option value="$PROJECT_DIR$/config/locales/ru.yml" />
+        <option value="$PROJECT_DIR$/public/stylesheets/admin/dashboard.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/admin/admin-typography.css" />
       </list>
     </option>
   </component>
@@ -100,6 +100,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="musthave-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="musthave-heroku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="musthave-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="musthave-heroku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="musthave-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="musthave-heroku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="musthave-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,7 +403,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32985073" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26641792" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -396,21 +450,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/site/app/views/admin/shared/_address.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="393" selection-end="393" vertical-scroll-proportion="0.39145908" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/app/views/products/_cart_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="64" selection-start="1813" selection-end="1813" vertical-scroll-proportion="-14.384615" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/app/views/shared/_products.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="0" selection-start="2314" selection-end="2314" vertical-scroll-proportion="-17.692308" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/IT/tomash-bitspudlo.com-7f7bd1f/lib/spree_site.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="59" selection-start="225" selection-end="225" vertical-scroll-proportion="-0.6360544" />
@@ -451,11 +490,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/screen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1352" column="11" selection-start="27565" selection-end="27565" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/lv.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1092" column="69" selection-start="40881" selection-end="40881" vertical-scroll-proportion="0.0" />
@@ -474,6 +508,34 @@
     <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="121" column="19" selection-start="3665" selection-end="3669" vertical-scroll-proportion="0.33272728">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/admin/admin-typography.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="29" selection-start="2382" selection-end="2382" vertical-scroll-proportion="0.43367347">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/admin/dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="17" selection-start="2348" selection-end="2348" vertical-scroll-proportion="0.6819728">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/admin/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="17" selection-start="272" selection-end="272" vertical-scroll-proportion="0.43367347">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="12" selection-start="368" selection-end="368" vertical-scroll-proportion="0.08869565">
           <folding />
         </state>
       </provider>
