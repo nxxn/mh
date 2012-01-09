@@ -389,7 +389,7 @@ class Order < ActiveRecord::Base
     if old_shipment_state = self.changed_attributes["shipment_state"]
       self.state_events.create({
         :previous_state => old_shipment_state,
-        :next_state     => self.shipment_state,
+
         :name           => "shipment" ,
         :user_id        => (User.respond_to?(:current) && User.current && User.current.id) || self.user_id
       })
@@ -418,7 +418,7 @@ class Order < ActiveRecord::Base
     if old_payment_state = self.changed_attributes["payment_state"]
       self.state_events.create({
         :previous_state => old_payment_state,
-        :next_state     => self.payment_state,
+
         :name           => "payment" ,
         :user_id        =>  (User.respond_to?(:current) && User.current && User.current.id) || self.user_id
       })
