@@ -301,7 +301,6 @@ body.one-col #content {
 }
 body.two-col #content {
   padding: 10px;
-  padding-bottom: 20px;
   text-align: left;
   display: block;
   float: left;
