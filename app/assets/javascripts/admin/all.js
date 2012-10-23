@@ -9,7 +9,6 @@
 
 //= require admin/spree_core
 //= require admin/spree_promo
-//= require_self
 //= require_tree .
 
 
