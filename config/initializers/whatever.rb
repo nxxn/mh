@@ -1,0 +1,6 @@
+Spree::Config.set(:default_country_id=> "110")
+Spree::Config.set(:address_requires_state=> "false")
+Spree::Config.set(:admin_products_per_page=> "5000")
+Spree::Config.set(:orders_per_page=> "5000")
+Spree::Config.set(:admin_interface_logo => 'admin/bg/spree_50.png')
+Spree::Config.set(:logo => 'admin/logo.png')

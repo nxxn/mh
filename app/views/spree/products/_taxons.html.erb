@@ -1,0 +1,29 @@
+<% if !@product.relations.blank? %>
+  <div id="taxon-crumbs" data-hook class="alpha columns omega ten">
+    <h6 class="product-section-title"><%= t(:look_for_similar_items) %></h6>
+
+    <table class="index" style="margin-top: 15px; text-align: center; width: 580px;">
+      <thead>
+        <tr>
+          <th><%= t('name') %></th>
+          <th><%= t('image') %></th>
+          <th><%= t('price') %></th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @product.relations.each do |relation| %>
+          <tr id="related_product">
+            <td class="related_name"><%= link_to relation.related_to.name, relation.related_to %></td>
+            <td>
+              <% unless relation.related_to.images.empty? %>
+                <%= link_to image_tag(relation.related_to.images.first.attachment.url(:product), :width => 150, :height => 120), relation.related_to %>
+              <% end %>
+            </td>
+            <td class="related_price"><%= link_to (money relation.related_to.price), relation.related_to %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+
+  </div>
+<% end %>
