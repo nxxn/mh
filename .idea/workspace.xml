@@ -19,19 +19,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="screen.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/screen.css.scss">
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="32" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/all.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="16" selection-start="520" selection-end="520" vertical-scroll-proportion="0.20893855">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -39,19 +30,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/all.css">
+      <file leaf-file-name="address_states.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/address_states.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="1" selection-start="375" selection-end="410" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="variables.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/variables.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="69" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -79,10 +61,10 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/store/screen.css.scss" />
         <option value="$PROJECT_DIR$/config/locales/ru.yml" />
         <option value="$PROJECT_DIR$/config/locales/lv.yml" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/admin/product_autocomplete.js.erb" />
         <option value="$PROJECT_DIR$/app/views/spree/admin/shared/_translations.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/admin/admin.js.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/admin/admin.js.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/admin/product_autocomplete.js.erb" />
       </list>
     </option>
   </component>
@@ -278,11 +260,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\mh\app\assets" />
       <recent name="C:\Projects\mh\app\assets\javascripts\admin" />
       <recent name="C:\Projects\mh\app\models\spree" />
       <recent name="C:\Projects\mh\config\initializers" />
       <recent name="C:\Projects\mh\app\views\spree" />
-      <recent name="C:\Projects\mh\lib\spree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projects\mh\app\models" />
@@ -574,20 +556,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Ruby192/lib/ruby/gems/1.9.1/gems/bundler-1.2.0.pre.1/lib/bundler/dsl.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="70" selection-start="2444" selection-end="2444" vertical-scroll-proportion="0.5104408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="222" selection-end="222" vertical-scroll-proportion="0.168">
@@ -607,13 +575,6 @@
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/variables.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="69" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -639,13 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/product_autocomplete.js.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="1" selection-start="3689" selection-end="3689" vertical-scroll-proportion="0.96028036">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="120" column="2" selection-start="2614" selection-end="2614" vertical-scroll-proportion="2.312925">
@@ -660,9 +614,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/admin.js.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/all.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="75" selection-start="306" selection-end="306" vertical-scroll-proportion="0.21518987">
+        <state line="11" column="16" selection-start="520" selection-end="520" vertical-scroll-proportion="0.20893855">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="1" selection-start="375" selection-end="410" vertical-scroll-proportion="0.17094973">
           <folding />
         </state>
       </provider>
@@ -674,19 +637,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/all.css">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/variables.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="375" selection-end="410" vertical-scroll-proportion="0.0">
+        <state line="38" column="69" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.7217877">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/all.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="16" selection-start="520" selection-end="520" vertical-scroll-proportion="0.20893855">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/admin.js.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="3" selection-start="5358" selection-end="5358" vertical-scroll-proportion="-97.42308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/product_autocomplete.js.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="1" selection-start="3689" selection-end="3689" vertical-scroll-proportion="0.96028036">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/address_states.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
