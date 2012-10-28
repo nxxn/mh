@@ -19,10 +19,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_head.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_head.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/spree/admin/shared/_head.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="26" selection-start="912" selection-end="912" vertical-scroll-proportion="0.48906788">
+            <state line="25" column="26" selection-start="912" selection-end="912" vertical-scroll-proportion="-16.346153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="101" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.8480447">
               <folding />
             </state>
           </provider>
@@ -63,7 +72,6 @@
         <option value="$PROJECT_DIR$/app/models/spree/shipping_method.rb" />
         <option value="$PROJECT_DIR$/app/views/spree/user_sessions/new.html.erb" />
         <option value="C:/Ruby192/lib/ruby/gems/1.9.1/gems/bundler-1.2.0.pre.1/lib/bundler/dsl.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/store/screen.css.scss" />
         <option value="$PROJECT_DIR$/config/locales/ru.yml" />
         <option value="$PROJECT_DIR$/config/locales/lv.yml" />
@@ -76,6 +84,7 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/admin/application.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/admin/spree_core.js" />
         <option value="$PROJECT_DIR$/app/views/spree/admin/shared/_head.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -553,11 +562,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/admin.js.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="3" selection-start="5358" selection-end="5358" vertical-scroll-proportion="-97.42308" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/product_autocomplete.js.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="116" column="1" selection-start="3689" selection-end="3689" vertical-scroll-proportion="0.96028036" />
@@ -660,7 +664,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/spree/admin/shared/_head.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="26" selection-start="912" selection-end="912" vertical-scroll-proportion="0.48906788">
+        <state line="25" column="26" selection-start="912" selection-end="912" vertical-scroll-proportion="-16.346153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="101" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.8480447">
           <folding />
         </state>
       </provider>
