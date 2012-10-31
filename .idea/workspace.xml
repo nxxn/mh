@@ -19,19 +19,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_languages.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_languages.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/spree/admin/shared/_languages.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="42" selection-start="115" selection-end="115" vertical-scroll-proportion="-1.9615384">
+            <state line="3" column="36" selection-start="103" selection-end="103" vertical-scroll-proportion="0.05868815">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="71" selection-start="551" selection-end="551" vertical-scroll-proportion="0.20893855">
+            <state line="11" column="71" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -663,16 +663,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/spree/admin/shared/_languages.html.haml">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="42" selection-start="115" selection-end="115" vertical-scroll-proportion="-1.9615384">
+        <state line="11" column="71" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/spree/admin/shared/_languages.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="71" selection-start="551" selection-end="551" vertical-scroll-proportion="0.20893855">
+        <state line="3" column="36" selection-start="103" selection-end="103" vertical-scroll-proportion="0.05868815">
           <folding />
         </state>
       </provider>
