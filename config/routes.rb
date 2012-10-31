@@ -8,8 +8,8 @@ Mh::Application.routes.draw do
   mount Spree::Core::Engine, :at => '/'
 
 
-  namespace "admin" do
-    match ':locale/set' => 'spree/locale#set', :as => :set_locale
+  namespace :admin do
+    match ':locale/set' => 'spree/locale#set', :as => :set_locale_admin
   end
 
   match ':locale/set' => 'spree/locale#set', :as => :set_locale
