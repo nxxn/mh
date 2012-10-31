@@ -1208,6 +1208,24 @@ ru:
   delivery_time: "Укажите удобное для Вас время доставки или другие пожелания!"
   contacts: "Контакты"
 
+  number:
+    # Used in number_to_currency()
+    currency:
+      format:
+        # Формат отображения валюты и обозначение самой валюты
+        #
+        #
+        # Where is the currency sign? %u is the currency unit, %n the number (default: $5.00)
+        format: "%n %u"
+        negative_format: "- %n %u"
+        unit: "LS"
+        # These three are to override number.format and are optional
+        separator: "."
+        delimiter: ""
+        precision: 2
+    format:
+      separator: "."
+
   views:
     pagination:
       last: "Последняя"

@@ -55,9 +55,9 @@
           <%= truncate(item.variant.product.description, :length => 100, :omission => "...") %>
           <%= "(" + variant_options(item.variant) + ")" unless item.variant .option_values.empty? %>
         </td>
-        <td data-hook="order_item_price" class="price"><span><%= money item.price %></span></td>
+        <td data-hook="order_item_price" class="price"><span><%= number_to_currency(item.price) %></span></td>
         <td data-hook="order_item_qty"><%= item.quantity %></td>
-        <td data-hook="order_item_total" class="total"><span><%= money(item.price * item.quantity) %></span></td>
+        <td data-hook="order_item_total" class="total"><span><%= number_to_currency(item.price * item.quantity) %></span></td>
       </tr>
     <% end %>
   </tbody>
@@ -88,7 +88,7 @@
     <% next if (adjustment.originator_type == 'Spree::TaxRate') and (adjustment.amount == 0) %>
       <tr class="total">
         <td colspan="4"><strong><%= adjustment.label %></strong></td>
-        <td class="total"><span><%= money adjustment.amount %></span></td>
+        <td class="total"><span><%= number_to_currency(adjustment.amount) %></span></td>
       </tr>
     <% end %>
   </tfoot>

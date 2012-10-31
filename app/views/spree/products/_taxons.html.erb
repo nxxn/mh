@@ -19,7 +19,7 @@
                 <%= link_to image_tag(relation.related_to.images.first.attachment.url(:product), :width => 150, :height => 120), relation.related_to %>
               <% end %>
             </td>
-            <td class="related_price"><%= link_to (money relation.related_to.price), relation.related_to %></td>
+            <td class="related_price"><%= link_to (number_to_currency(relation.related_to.price)), relation.related_to %></td>
           </tr>
         <% end %>
       </tbody>
