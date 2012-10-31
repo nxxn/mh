@@ -8,7 +8,7 @@ Mh::Application.routes.draw do
   mount Spree::Core::Engine, :at => '/'
         
 
-  match ':locale/set' => 'spree/locale#set', :as => :set_locale
+  match '/:locale/set' => 'spree/locale#set', :as => :set_locale
 
 
 
