@@ -28,10 +28,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="screen.css.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="screen.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/screen.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="295" column="20" selection-start="7296" selection-end="7308" vertical-scroll-proportion="0.0">
+            <state line="548" column="20" selection-start="12254" selection-end="12254" vertical-scroll-proportion="0.43103448">
               <folding />
             </state>
           </provider>
@@ -64,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_main_nav_bar.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_main_nav_bar.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/spree/shared/_main_nav_bar.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="38" selection-start="326" selection-end="326" vertical-scroll-proportion="0.15650173">
+            <state line="8" column="38" selection-start="326" selection-end="326" vertical-scroll-proportion="-5.230769">
               <folding />
             </state>
           </provider>
@@ -92,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/spree/shared/_languages.html.haml" />
         <option value="$PROJECT_DIR$/app/views/spree/admin/shared/_languages.html.haml" />
         <option value="$PROJECT_DIR$/app/models/spree/product.rb" />
@@ -108,6 +107,7 @@
         <option value="$PROJECT_DIR$/app/views/spree/orders/_adjustments.html.erb" />
         <option value="$PROJECT_DIR$/app/views/spree/shared/_order_details.html.erb" />
         <option value="$PROJECT_DIR$/app/views/spree/orders/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/store/screen.css.scss" />
       </list>
     </option>
   </component>
@@ -464,6 +464,36 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -484,6 +514,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -723,7 +771,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -798,13 +846,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/spree/checkout/_delivery.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="84" selection-start="491" selection-end="512" vertical-scroll-proportion="0.17606445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/spree/admin/shared/_languages.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="36" selection-start="103" selection-end="103" vertical-scroll-proportion="0.05868815">
@@ -829,13 +870,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/spree/shared/_nav_bar.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/screen.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="295" column="20" selection-start="7296" selection-end="7308" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -907,9 +941,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/spree/shared/_main_nav_bar.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="38" selection-start="326" selection-end="326" vertical-scroll-proportion="0.15650173">
+        <state line="8" column="38" selection-start="326" selection-end="326" vertical-scroll-proportion="-5.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/screen.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="548" column="20" selection-start="12254" selection-end="12254" vertical-scroll-proportion="0.43103448">
           <folding />
         </state>
       </provider>
