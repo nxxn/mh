@@ -6,9 +6,13 @@ Mh::Application.routes.draw do
   #
   # We ask that you don't use the :as option here, as Spree relies on it being the default of "spree"
   mount Spree::Core::Engine, :at => '/'
-        
 
-  match '/:locale/set' => 'spree/locale#set', :as => :set_locale
+
+  namespace "admin" do
+    match ':locale/set' => 'spree/locale#set', :as => :set_locale
+  end
+
+  match ':locale/set' => 'spree/locale#set', :as => :set_locale
 
 
 
