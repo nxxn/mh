@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121020205926) do
+ActiveRecord::Schema.define(:version => 20121030210001) do
 
   create_table "spree_activators", :force => true do |t|
     t.string   "description"
@@ -437,7 +437,7 @@ ActiveRecord::Schema.define(:version => 20121020205926) do
   create_table "spree_property_translations", :force => true do |t|
     t.integer  "spree_property_id"
     t.string   "locale"
-    t.string   "name"
+    t.string   "presentation"
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
   end

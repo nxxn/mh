@@ -18,48 +18,7 @@
     <disable_hints />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="_head.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/spree/admin/shared/_head.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="26" selection-start="912" selection-end="912" vertical-scroll-proportion="-16.346153">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="101" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.8480447">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spree_core.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/spree_core.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -69,22 +28,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/spree/shipping_method.rb" />
-        <option value="$PROJECT_DIR$/app/views/spree/user_sessions/new.html.erb" />
-        <option value="C:/Ruby192/lib/ruby/gems/1.9.1/gems/bundler-1.2.0.pre.1/lib/bundler/dsl.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/store/screen.css.scss" />
-        <option value="$PROJECT_DIR$/config/locales/ru.yml" />
-        <option value="$PROJECT_DIR$/config/locales/lv.yml" />
-        <option value="$PROJECT_DIR$/app/views/spree/admin/shared/_translations.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/admin/admin.js.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/admin/product_autocomplete.js.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" />
-        <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/admin/application.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/admin/spree_core.js" />
         <option value="$PROJECT_DIR$/app/views/spree/admin/shared/_head.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/locales/ru.yml" />
+        <option value="$PROJECT_DIR$/app/views/spree/shared/_main_nav_bar.html.erb" />
+        <option value="$PROJECT_DIR$/config/locales/lv.yml" />
+        <option value="$PROJECT_DIR$/app/models/spree/image.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20121006130043_create_property_translation.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20121028204457_add_presentation_to_translation.rb" />
+        <option value="$PROJECT_DIR$/db/schema.rb" />
+        <option value="$PROJECT_DIR$/app/models/spree/prototype.rb" />
+        <option value="$PROJECT_DIR$/app/views/spree/admin/prototypes/_form.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20121030210001_remove_name_from_properties.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20121030212816_drop_property_translation_table.rb" />
+        <option value="$PROJECT_DIR$/app/models/spree/property.rb" />
+        <option value="$PROJECT_DIR$/app/views/spree/admin/prototypes/select.js.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/spree/admin/prototypes_controller.rb" />
       </list>
     </option>
   </component>
@@ -120,6 +79,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -135,38 +96,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="environments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -252,8 +181,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,17 +191,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\mh\app\controllers\spree\admin" />
+      <recent name="C:\Projects\mh\app\views\spree\admin" />
+      <recent name="C:\Projects\mh\app\models\spree" />
       <recent name="C:\Projects\mh\app\assets" />
       <recent name="C:\Projects\mh\app\assets\javascripts\admin" />
-      <recent name="C:\Projects\mh\app\models\spree" />
-      <recent name="C:\Projects\mh\config\initializers" />
-      <recent name="C:\Projects\mh\app\views\spree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\mh\app\controllers\spree" />
+      <recent name="C:\Projects\mh\db\migrate" />
       <recent name="C:\Projects\mh\app\assets\javascripts" />
       <recent name="C:\Projects\mh\app\assets\javascripts\admin" />
       <recent name="C:\Projects\mh\app\models" />
-      <recent name="C:\Projects\mh\app\models\spree" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: mh">
@@ -487,14 +415,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43695652" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32657418" sideWeight="0.5630435" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34151548" sideWeight="0.5630435" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32826087" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -562,116 +490,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/product_autocomplete.js.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/screen.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="1" selection-start="3689" selection-end="3689" vertical-scroll-proportion="0.96028036" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/address_states.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="373" selection-end="376" vertical-scroll-proportion="0.11724138">
+        <state line="11" column="14" selection-start="306" selection-end="339" vertical-scroll-proportion="0.20893855">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/spree/admin/prototypes/available.js.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="32" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.37126437">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/spree/admin/shared/_languages.html.haml">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20121003163931_add_adjustments_index.spree.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/spree/shared/_languages.html.haml">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20121008222509_create_relation_types.spree_related_products.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/spree/layouts/admin.html.erb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20121006125820_create_product_property_translation.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="13" column="25" selection-start="289" selection-end="289" vertical-scroll-proportion="0.25257143">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/spree/shared/_head.html.erb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20121028204457_add_presentation_to_translation.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="40" selection-start="691" selection-end="691" vertical-scroll-proportion="0.29344073">
+        <state line="3" column="28" selection-start="144" selection-end="156" vertical-scroll-proportion="0.058285713">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/store/all.js">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20121006130043_create_property_translation.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/spree_core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/spree/admin/shared/_head.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="26" selection-start="912" selection-end="912" vertical-scroll-proportion="-16.346153">
+        <state line="13" column="24" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="101" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.8480447">
+        <state line="435" column="43" selection-start="17549" selection-end="17549" vertical-scroll-proportion="0.21371429">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/spree/property.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="4" selection-start="56" selection-end="56" vertical-scroll-proportion="0.05698324">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/spree/prototype.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="29" selection-start="336" selection-end="336" vertical-scroll-proportion="0.18994413">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20121030210001_remove_name_from_properties.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="26" selection-start="208" selection-end="208" vertical-scroll-proportion="0.17094973">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/admin/prototypes/_prototypes.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="37" selection-start="662" selection-end="662" vertical-scroll-proportion="0.41081703">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/admin/prototypes/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="29" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.8607595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/admin/prototypes/select.js.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="75" selection-start="147" selection-end="147" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/admin.js.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="6" selection-start="2890" selection-end="2890" vertical-scroll-proportion="0.18872267">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/spree/admin/prototypes_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="645" selection-end="645" vertical-scroll-proportion="0.45586592">
           <folding />
         </state>
       </provider>

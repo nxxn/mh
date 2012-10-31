@@ -1,7 +1,7 @@
 module Spree
   class Property < ActiveRecord::Base
 
-    translates :name
+    translates :presentation
 
     has_and_belongs_to_many :prototypes, :join_table => :spree_properties_prototypes
 
