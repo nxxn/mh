@@ -292,7 +292,9 @@ mark {background-color: $link_text_color; color: $layout_background_color; font-
           padding-left: 0
         }
       }
-
+      &.not {
+        display: none;
+      }
       &#link-to-cart {
         float: right;
         padding-left: 24px;
@@ -1220,5 +1222,8 @@ span.name {
 span#price_products_list {
   float:left;
   margin-left: 30px;
+}
+li.not {
+  display:none;
 }
 
