@@ -1229,4 +1229,5 @@ ru:
   views:
     pagination:
       last: "Последняя"
-      next: "След."
+      next: ">>"
+      previous: "<<"

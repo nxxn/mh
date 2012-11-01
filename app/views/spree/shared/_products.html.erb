@@ -18,7 +18,7 @@
           <%= link_to small_image(product, :itemprop => "image"), product, :itemprop => 'url' %>
         </div>
         <%= link_to truncate(product.name, :length => 50), product, :class => 'info', :itemprop => "name", :title => product.name %>
-        <span class="price selling" itemprop="price"><%= number_to_currency(product.price) %> </span>
+        <span id="price_products_list" class="price selling" itemprop="price"><%= number_to_currency(product.price) %> </span>
 
         <div class="cart_list">
         <%= form_for :order, :url => populate_orders_url do |f| %>

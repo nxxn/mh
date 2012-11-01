@@ -1201,8 +1201,15 @@ td.related_name {
 #product_show_price {
   color: #969091;
 }
-.pagination {
+nav.pagination {
   text-align: center;
+  span.page.current {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  span.page {
+    font-size: 14px;
+  }
 }
 span.name {
   color: #EB6077;
@@ -1210,7 +1217,7 @@ span.name {
 .buy_it {
   margin-top: 3px;
 }
-span.price.selling {
+span#price_products_list {
   float:left;
   margin-left: 30px;
 }

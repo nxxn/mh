@@ -1210,4 +1210,5 @@ lv:
   views:
     pagination:
       last: "Pēdēja"
-      next: "Nākama"
+      next: ">>"
+      previous: "<<"
