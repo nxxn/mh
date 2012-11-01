@@ -27,6 +27,15 @@
       <div class="columns six alpha" data-hook="product_properties">
         <%= render :partial => 'properties' %>
       </div>
+
+      <div class="columns six alpha">
+        <div id="kol-vo">
+          <h6 class="product-section-title"><%= t(:available_quantity) %>: <%= @product.on_hand %></h6>
+        </div>
+        <div id="cart-form" data-hook="cart_form">
+          <%= render :partial => 'cart_form' %>
+        </div>
+      </div>
     
     </div>
   </div>
@@ -46,18 +55,7 @@
 
 
 
-      <div id="kol-vo">
 
-        <h6 class="product-section-title"><%= t(:available_quantity) %>: <%= @product.on_hand %></h6>
-
-      </div>
-
-        <div id="cart-form" data-hook="cart_form">
-          <%= render :partial => 'cart_form' %>
-        </div>
-
-
-      </div>
 
       <%= render :partial => 'taxons' %>
 
