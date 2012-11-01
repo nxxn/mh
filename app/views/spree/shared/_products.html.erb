@@ -19,6 +19,20 @@
         </div>
         <%= link_to truncate(product.name, :length => 50), product, :class => 'info', :itemprop => "name", :title => product.name %>
         <span class="price selling" itemprop="price"><%= number_to_currency(product.price) %> </span>
+
+        <div class="cart_list">
+        <%= form_for :order, :url => populate_orders_url do |f| %>
+
+          <% if product.has_stock? || Spree::Config[:allow_backorders] %>
+            <%= number_field_tag (product.has_variants? ? :quantity : "variants[#{product.master.id}]"),
+              1, :class => 'title', :in => 1..product.on_hand, :style => "display:none;" %>
+            <%= image_submit_tag("add.png", :class => "buy_it") %>
+          <% else %>
+            <%= content_tag('strong', t(:out_of_stock)) %>
+          <% end %>
+        <% end %>
+        </div>
+
       </li>
     <% end %>
   <% end %>

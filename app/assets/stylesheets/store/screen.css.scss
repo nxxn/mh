@@ -357,7 +357,7 @@ mark {background-color: $link_text_color; color: $layout_background_color; font-
         color: $link_text_color;
       }
       span {
-        text-transform: uppercase;
+        text-transform: capitalize;
         font-weight: bold;
       }
     }
@@ -547,11 +547,14 @@ mark {background-color: $link_text_color; color: $layout_background_color; font-
       background-color: $product_background_color;
       width: 300px;
       height: 450px;
+      margin-left: 10px;
+      padding: 5px;
       img {
         min-height: 240px;
       }
     }
     #product-thumbnails {
+      margin-left: 10px;
       li {
         background-color: $product_background_color;
       }
@@ -1203,5 +1206,12 @@ td.related_name {
 }
 span.name {
   color: #EB6077;
+}
+.buy_it {
+  margin-top: 3px;
+}
+span.price.selling {
+  float:left;
+  margin-left: 30px;
 }
 
