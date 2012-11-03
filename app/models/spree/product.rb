@@ -1,24 +1,6 @@
-# PRODUCTS
-# Products represent an entity for sale in a store.
-# Products can have variations, called variants
-# Products properties include description, permalink, availability,
-#   shipping category, etc. that do not change by variant.
-#
-# MASTER VARIANT
-# Every product has one master variant, which stores master price and sku, size and weight, etc.
-# The master variant does not have option values associated with it.
-# Price, SKU, size, weight, etc. are all delegated to the master variant.
-# Contains on_hand inventory levels only when there are no variants for the product.
-#
-# VARIANTS
-# All variants can access the product properties directly (via reverse delegation).
-# Inventory units are tied to Variant.
-# The master variant can have inventory units, but not option values.
-# All other variants have option values and may have inventory units.
-# Sum of on_hand each variant's inventory level determine "on_hand" level for the product.
-#
 module Spree
   class Product < ActiveRecord::Base
+
     translates :name, :description, :meta_description
 
     has_many :product_option_types, :dependent => :destroy
@@ -45,6 +27,8 @@ module Spree
       :class_name => 'Spree::Variant',
       :conditions => { :deleted_at => nil },
       :dependent => :destroy
+
+    has_many :variants_including_master_and_deleted, :class_name => 'Spree::Variant'
 
     delegate_belongs_to :master, :sku, :price, :weight, :height, :width, :depth, :is_master
     delegate_belongs_to :master, :cost_price if Variant.table_exists? && Variant.column_names.include?('cost_price')
@@ -181,6 +165,10 @@ module Spree
       !!deleted_at
     end
 
+    def available?
+      !(available_on.nil? || available_on.future?)
+    end
+
     # split variants list into hash which shows mapping of opt value onto matching variants
     # eg categorise_variants_from_option(color) => {"red" -> [...], "blue" -> [...]}
     def categorise_variants_from_option(opt_type)
@@ -274,3 +262,4 @@ module Spree
 end
 
 require_dependency 'spree/product/scopes'
+
