@@ -22,16 +22,25 @@
       <file leaf-file-name="screen.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/screen.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1240" column="18" selection-start="25574" selection-end="25574" vertical-scroll-proportion="-44.32">
+            <state line="1240" column="18" selection-start="25574" selection-end="25574" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="lv.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/locales/lv.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="17" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.88603354">
+            <state line="1215" column="21" selection-start="43431" selection-end="43431" vertical-scroll-proportion="0.9036281">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ru.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1233" column="6" selection-start="45635" selection-end="45650" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -47,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/spree/core/search/base.rb" />
         <option value="$PROJECT_DIR$/app/views/spree/shared/_products.html.erb" />
         <option value="$PROJECT_DIR$/app/views/spree/shared/_taxonomies.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/spree/taxons_helper.rb" />
@@ -60,9 +68,10 @@
         <option value="$PROJECT_DIR$/app/views/spree/checkout/_delivery.html.erb" />
         <option value="$PROJECT_DIR$/app/views/spree/shared/_order_details.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/store/screen.css.scss" />
-        <option value="$PROJECT_DIR$/config/locales/lv.yml" />
-        <option value="$PROJECT_DIR$/config/locales/ru.yml" />
         <option value="$PROJECT_DIR$/app/views/spree/contact_us/contacts/new.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/locales/ru.yml" />
+        <option value="$PROJECT_DIR$/config/locales/lv.yml" />
       </list>
     </option>
   </component>
@@ -98,7 +107,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
@@ -115,20 +123,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -164,40 +158,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -436,10 +399,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53152174" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34151548" sideWeight="0.46847826" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34525082" sideWeight="0.46847826" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32826087" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -448,6 +410,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53152174" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -507,114 +470,92 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/spree/admin/orders/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="43" selection-start="1126" selection-end="1131" vertical-scroll-proportion="0.17894737">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/spree/orders/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="695" selection-end="695" vertical-scroll-proportion="0.39355582">
-          <folding />
-        </state>
+        <state line="21" column="21" selection-start="695" selection-end="695" vertical-scroll-proportion="0.39355582" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/spree/checkout/_confirm.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/spree/checkout/_delivery.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="107" selection-start="665" selection-end="665" vertical-scroll-proportion="0.29344073">
-          <folding />
-        </state>
+        <state line="15" column="107" selection-start="665" selection-end="665" vertical-scroll-proportion="0.29344073" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/spree/shared/_products.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="133" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.3843458">
-          <folding />
-        </state>
+        <state line="20" column="133" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.3843458" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/spree/shared/_order_details.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="34" selection-start="3328" selection-end="3328" vertical-scroll-proportion="0.6283084">
-          <folding />
-        </state>
+        <state line="82" column="34" selection-start="3328" selection-end="3328" vertical-scroll-proportion="0.6283084" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/spree/checkout/_summary.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="71" selection-start="766" selection-end="784" vertical-scroll-proportion="0.3716916">
-          <folding />
-        </state>
+        <state line="19" column="71" selection-start="766" selection-end="784" vertical-scroll-proportion="0.3716916" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/spree/orders/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1205" column="12" selection-start="44841" selection-end="44851" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="500" column="24" selection-start="20038" selection-end="20046" vertical-scroll-proportion="8.735195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/lv.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1186" column="51" selection-start="42637" selection-end="42637" vertical-scroll-proportion="0.3446712">
-          <folding />
-        </state>
+        <state line="500" column="24" selection-start="20038" selection-end="20046" vertical-scroll-proportion="8.735195" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/spree/contact_us/contacts/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="38" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.7629459">
+        <state line="39" column="38" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.7629459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="1" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.88603354">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="39" selection-start="43" selection-end="43" vertical-scroll-proportion="-4.280447">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/screen.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1240" column="18" selection-start="25574" selection-end="25574" vertical-scroll-proportion="-44.32">
+        <state line="1240" column="18" selection-start="25574" selection-end="25574" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="17" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.88603354">
+        <state line="1233" column="6" selection-start="45635" selection-end="45650" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/lv.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1215" column="21" selection-start="43431" selection-end="43431" vertical-scroll-proportion="0.9036281">
           <folding />
         </state>
       </provider>
