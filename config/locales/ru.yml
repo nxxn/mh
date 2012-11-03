@@ -1203,6 +1203,7 @@ ru:
   submit: "Отправить"
   message: "Сообщение"
   contact_us: "Задайте свой вопрос!"
+  that_email: "Ответ придет на этот e-mail!"
   phone_is_correct: "Убедитесь, что номер правильный!"
   comments: "Комментарии"
   delivery_time: "Укажите удобное для Вас время доставки или другие пожелания!"
@@ -1228,6 +1229,5 @@ ru:
 
   views:
     pagination:
-      last: "Последняя"
       next: ">>"
       previous: "<<"

@@ -1184,6 +1184,7 @@ lv:
   submit: "Sūtīt"
   message: "Ziņojums"
   contact_us: "Uzdod savu jautājumu!"
+  that_email: "Atbilde tiks izsūtīta uz šo e-pastu!"
   phone_is_correct: "Pārliecināties, ka numurs ir noradīts pareizi!"
   comments: "Komentāri"
   delivery_time: "Norādiet Jums ērtu piegādes laiku un citus apstakļus!"

@@ -37,7 +37,8 @@
   <p>
     <%= f.label t('your_email') %>
     <span class="required">*</span><br/>
-    <%= f.email_field :email %>
+    <%= f.email_field :email %>  <br/>
+    <%= t('that_email') %>
   </p>
   <p>
     <%= f.submit t('submit'), :alt => t('submit'), :id => 'contact_us_contact_submit', :title => t('submit') %>

@@ -1226,4 +1226,29 @@ span#price_products_list {
 li.not {
   display:none;
 }
+td[data-hook="order_item_price"] {
+  padding: 0px;
+}
+td[data-hook="order_item_qty"] {
+  text-align: center;
+}
+td[data-hook="order_item_total"] {
+  text-align: center;
+  padding: 0px;
+}
+tfoot[data-hook="order_details_subtotal"] {
+  td.total {
+    padding: 5px 10px;
+  }
+}
+tfoot[data-hook="order_details_total"] {
+  td.total {
+    padding: 10px 0px;
+    span.total {
+      text-align: center;
+      padding: 5px 0px;
+    }
+  }
+}
+
 
