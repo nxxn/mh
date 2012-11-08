@@ -1,8 +1,5 @@
 Rails.application.routes.draw do
 
-  match 'contacts' => 'message#new', :as => 'message', :via => :get
-  match 'contacts' => 'message#create', :as => 'message', :via => :post
-
   root :to => 'products#index'
 
   resources :products
