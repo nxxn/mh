@@ -22,19 +22,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_footer.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_footer.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/site/app/views/shared/_footer.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="40" selection-start="334" selection-end="334" vertical-scroll-proportion="-9.153846">
+            <state line="4" column="66" selection-start="145" selection-end="145" vertical-scroll-proportion="0.07825086">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="89" selection-end="126" vertical-scroll-proportion="0.11396648">
+            <state line="7" column="57" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -64,8 +64,8 @@
         <option value="$PROJECT_DIR$/site/app/views/shared/_order_details.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/initializers/whatever.rb" />
-        <option value="$PROJECT_DIR$/site/app/views/shared/_footer.html.erb" />
         <option value="$PROJECT_DIR$/site/config/routes.rb" />
+        <option value="$PROJECT_DIR$/site/app/views/shared/_footer.html.erb" />
       </list>
     </option>
   </component>
@@ -586,16 +586,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/app/views/shared/_footer.html.erb">
+    <entry file="file://$PROJECT_DIR$/site/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="40" selection-start="334" selection-end="334" vertical-scroll-proportion="-9.153846">
+        <state line="7" column="57" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/site/app/views/shared/_footer.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="89" selection-end="126" vertical-scroll-proportion="0.11396648">
+        <state line="4" column="66" selection-start="145" selection-end="145" vertical-scroll-proportion="0.07825086">
           <folding />
         </state>
       </provider>
