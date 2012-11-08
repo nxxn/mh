@@ -41,5 +41,19 @@ module SpreeHerokuDemo
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+
+  config.action_mailer.smtp_settings = {
+    :address              => "smtp.gmail.com",
+    :port                 => 587,
+    :domain               => "musthave.lv",
+    :user_name            => "order@musthave.lv",
+    :password             => "mms13lol",
+    :authentication       => :plain,
+    :enable_starttls_auto => true
+  }
+
+  config.action_mailer.default_url_options = {
+    :host => "musthave.lv"
+  }
   end
 end

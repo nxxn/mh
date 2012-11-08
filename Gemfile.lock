@@ -62,6 +62,7 @@ GEM
       abstract (>= 1.0.0)
     faker (0.9.5)
       i18n (~> 0.4)
+    haml (3.1.4)
     highline (1.6.2)
     http_connection (1.4.1)
     i18n (0.6.0)
@@ -166,6 +167,7 @@ PLATFORMS
 DEPENDENCIES
   aws
   aws-s3
+  haml
   rails (= 3.0.3)
   site!
   spree (= 0.40.0)

@@ -4,6 +4,7 @@ gem 'rails', '3.0.3'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'aws-s3', :require => 'aws/s3'
 gem 'aws'
+gem 'haml'
 
 gem 'spree_editor'
 gem 'spree_static_content'

@@ -1,4 +1,14 @@
 ru:
+  message:
+    new:
+      title-name: "Ваше имя"
+      title-email: "Ваша электронная почта"
+      title-phone: "Ваш телефон"
+      title-body: "Ваш вопрос"
+      name: "Имя, Фамилия"
+      phone: "Телефон"
+      email: "Эл.почта"
+      send: "Отправить"
   biggest_spenders: "5 крупнейших покупателей"
   a_copy_of_all_mail_will_be_sent_to_the_following_addresses: "Копии всех писем будут отосланы на следующие адреса"
   abbreviation: "Аббревиатура"
