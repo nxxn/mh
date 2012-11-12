@@ -1,5 +1,6 @@
 class CreatePageTranslation < ActiveRecord::Migration
   def up
+
     Spree::Page.create_translation_table!({
       title: :string,
       body: :text

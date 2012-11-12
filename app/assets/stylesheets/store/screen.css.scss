@@ -292,7 +292,7 @@ mark {background-color: $link_text_color; color: $layout_background_color; font-
           padding-left: 0
         }
       }
-      &.not {
+      &.not, &.current {
         display: none;
       }
       &#link-to-cart {
@@ -1225,6 +1225,11 @@ span#price_products_list {
 }
 li.not {
   display:none;
+}
+nav#footer-pages, ul#main-nav-bar {
+  li.current {
+    display: none
+  }
 }
 td[data-hook="order_item_price"] {
   padding: 0px;

@@ -7,8 +7,6 @@ gem 'rails', '3.2.8'
 
 gem 'mysql2'
 gem 'haml'
-gem 'awesome_print'
-gem 'quiet_assets'
 gem 'globalize3'
 
 
@@ -23,6 +21,11 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+end
+
+group :development do
+  gem 'awesome_print'
+  gem 'quiet_assets'
 end
 
 group :production do
@@ -51,4 +54,8 @@ gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise'
 gem 'spree_static_content', :git => 'git://github.com/spree/spree_static_content.git', :branch => '1-2-stable'
 gem 'spree_contact_us', :git => 'https://github.com/jdutil/spree_contact_us', :branch => '1-2-stable'
 gem 'spree_related_products', :git => 'git://github.com/spree/spree_related_products.git'
+gem 'spree_editor', :git => 'git://raw.github.com/spree/spree_editor.git'
+gem 'tinymce-rails', '>= 3.4.7.0.1'
+gem 'tinymce-rails-langs'
+
 #gem 'spree_ajax_add_to_cart', :git => 'git://github.com/joneslee85/spree_ajax_add_to_cart.git'
