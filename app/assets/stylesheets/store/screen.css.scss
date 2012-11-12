@@ -292,7 +292,7 @@ mark {background-color: $link_text_color; color: $layout_background_color; font-
           padding-left: 0
         }
       }
-      &.not, &.current {
+      &.not {
         display: none;
       }
       &#link-to-cart {
