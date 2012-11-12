@@ -1228,7 +1228,11 @@ li.not {
 }
 nav#footer-pages, ul#main-nav-bar {
   li.current {
-    display: none
+    a {
+      span.translation_missing {
+        display: none;
+      }
+    }
   }
 }
 td[data-hook="order_item_price"] {

@@ -9,7 +9,8 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree_related_products.git
-  revision: c83943c63384b965159069ae6f44a1e8c47d9b25
+  revision: 97a0e2db0013ba668a34ec535a43e174b17a31d6
+  branch: 1-2-stable
   specs:
     spree_related_products (3.2)
       spree_core (~> 1.2.0)
