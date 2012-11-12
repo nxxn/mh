@@ -19,10 +19,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="25" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.0">
+            <state line="55" column="114" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.81005585">
               <folding />
             </state>
           </provider>
@@ -37,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cancel_email.text.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="cancel_email.text.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/spree/order_mailer/cancel_email.text.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="33" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.67523366">
+            <state line="34" column="33" selection-start="1487" selection-end="1487" vertical-scroll-proportion="-22.23077">
               <folding />
             </state>
           </provider>
@@ -77,10 +77,10 @@
         <option value="$PROJECT_DIR$/config/locales/lv.yml" />
         <option value="$PROJECT_DIR$/app/models/spree/product.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20121007102527_create_page_translation.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/store/screen.css.scss" />
         <option value="$PROJECT_DIR$/app/views/spree/order_mailer/confirm_email.text.erb" />
         <option value="$PROJECT_DIR$/app/views/spree/order_mailer/cancel_email.text.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -659,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="25" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/screen.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1232" column="1" selection-start="25399" selection-end="25399" vertical-scroll-proportion="0.0">
@@ -682,7 +675,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/spree/order_mailer/cancel_email.text.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="33" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.67523366">
+        <state line="34" column="33" selection-start="1487" selection-end="1487" vertical-scroll-proportion="-22.23077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="114" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.81005585">
           <folding />
         </state>
       </provider>
