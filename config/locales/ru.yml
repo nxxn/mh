@@ -1087,6 +1087,12 @@ ru:
   spree: 
     date: "Дата"
     time: "Время"
+    contact_us:
+      contact_mailer:
+        contact_email:
+          subject: "Тема"
+      notices:
+        success: "Сообщение отправлено"
   spree_gateway_error_flash_for_checkout: "Возникли проблемы с Вашими реквизитами. Пожалуйста, проверьте их и попробуйте ещё раз."
   ssl_will_be_used_in_development_and_test_modes: "SSL шифрование будет включено в режимах development и test."
   ssl_will_be_used_in_production_mode: "SSL шифрование будет включено в режиме production."
