@@ -1199,6 +1199,7 @@ lv:
   with_pleasure: "Atbildēsim uz jebkuriem Jūsu jautājumiem."
   write: "Rakstiet"
   call: "Zvaniet"
+  title: "bižutērijas internet-veikals"
 
   number:
     # Used in number_to_currency()

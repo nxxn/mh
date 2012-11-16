@@ -1218,6 +1218,7 @@ ru:
   with_pleasure: "С удовольствием ответим на любые Ваши вопросы."
   write: "Пишите"
   call: "Звоните"
+  title: "интернет-магазин бижутерии"
 
   number:
     # Used in number_to_currency()
