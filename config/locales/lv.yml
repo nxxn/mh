@@ -1195,6 +1195,10 @@ lv:
   comments: "Komentāri"
   delivery_time: "Norādiet Jums ērtu piegādes laiku un citus apstakļus!"
   contacts: "Kontakti"
+  dear_customers: "Cienījamie pircēji, mēs esam priecīgi katram no Jums!"
+  with_pleasure: "Atbildēsim uz jebkuriem Jūsu jautājumiem."
+  write: "Rakstiet"
+  call: "Zvaniet"
 
   number:
     # Used in number_to_currency()
