@@ -6,7 +6,7 @@ Jūsu pasūtījums tika atcelts.
 Jūsu pasūtījums [atcelts]
 ============================================================
 <% for item in @order.line_items %>
-<%=item.variant.sku %> <%=item.variant.product.name%> <%= variant_options(item.variant) %> (<%=item.quantity%>) @ <%= number_to_currency item.price %> = <%= number_to_currency(item.price * item.quantity) %>
+<%=item.variant.sku %> <%=item.variant.product.name%> (<%=item.quantity%>) X <%= number_to_currency item.price %> = <%= number_to_currency(item.price * item.quantity) %>
 <% end %>
 ============================================================
 Starpsumma: <%= number_to_currency @order.item_total %>
@@ -24,7 +24,7 @@ Pasūtījuma summa: <%= number_to_currency @order.total %>
 Ваш заказ [отменено]
 ============================================================
 <% for item in @order.line_items %>
-<%=item.variant.sku %> <%=item.variant.product.name%> <%= variant_options(item.variant) %> (<%=item.quantity%>) @ <%= number_to_currency item.price %> = <%= number_to_currency(item.price * item.quantity) %>
+<%=item.variant.sku %> <%=item.variant.product.name%> (<%=item.quantity%>) X <%= number_to_currency item.price %> = <%= number_to_currency(item.price * item.quantity) %>
 <% end %>
 ============================================================
 Подытог: <%= number_to_currency @order.item_total %>
