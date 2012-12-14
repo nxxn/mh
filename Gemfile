@@ -57,5 +57,6 @@ gem 'spree_related_products', :git => 'git://github.com/spree/spree_related_prod
 gem 'spree_editor', :git => 'git://raw.github.com/spree/spree_editor.git'
 gem 'tinymce-rails', '>= 3.4.7.0.1'
 gem 'tinymce-rails-langs'
+gem 'devise-encryptable'
 
 #gem 'spree_ajax_add_to_cart', :git => 'git://github.com/joneslee85/spree_ajax_add_to_cart.git'
