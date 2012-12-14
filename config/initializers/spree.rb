@@ -16,7 +16,6 @@ Spree.config do |config|
   config.admin_interface_logo = "admin/bg/spree_50.png"
   config.logo = "admin/logo.png"
   config.products_per_page = "16"
-  config.allow_ssl_in_production = "true"
 
 
 end
