@@ -1,7 +1,7 @@
 class CreatePropertyTranslation < ActiveRecord::Migration
   def up
     Spree::Property.create_translation_table!({
-      name: :string
+      presentation: :string
     }, {
       migrate_data: true
     })
