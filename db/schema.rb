@@ -52,7 +52,7 @@ ActiveRecord::Schema.define(:version => 20121030210001) do
 
   create_table "spree_adjustments", :force => true do |t|
     t.integer  "source_id"
-    t.decimal  "amount",          :precision => 8, :scale => 2
+    t.decimal  "amount",          :precision => 8, :scale => 2, :default => 0.0
     t.string   "label"
     t.string   "source_type"
     t.integer  "adjustable_id"
@@ -352,7 +352,7 @@ ActiveRecord::Schema.define(:version => 20121030210001) do
   end
 
   add_index "spree_product_translations", ["locale"], :name => "index_spree_product_translations_on_locale"
-  add_index "spree_product_translations", ["spree_product_id"], :name => "index_9c3506652361f64d3d9355746255e787cf338d29"
+  add_index "spree_product_translations", ["spree_product_id"], :name => "index_spree_product_translations_on_spree_product_id"
 
   create_table "spree_products", :force => true do |t|
     t.string   "name",                 :default => "", :null => false
@@ -443,7 +443,7 @@ ActiveRecord::Schema.define(:version => 20121030210001) do
   end
 
   add_index "spree_property_translations", ["locale"], :name => "index_spree_property_translations_on_locale"
-  add_index "spree_property_translations", ["spree_property_id"], :name => "index_18d7a40517b2c63a27dd88e8171b51b7c1803614"
+  add_index "spree_property_translations", ["spree_property_id"], :name => "index_spree_property_translations_on_spree_property_id"
 
   create_table "spree_prototypes", :force => true do |t|
     t.string   "name"
@@ -598,7 +598,7 @@ ActiveRecord::Schema.define(:version => 20121030210001) do
   end
 
   add_index "spree_taxonomy_translations", ["locale"], :name => "index_spree_taxonomy_translations_on_locale"
-  add_index "spree_taxonomy_translations", ["spree_taxonomy_id"], :name => "index_bcfa3acece5a2f70dac0c97889139d1f262c36b6"
+  add_index "spree_taxonomy_translations", ["spree_taxonomy_id"], :name => "index_spree_taxonomy_translations_on_spree_taxonomy_id"
 
   create_table "spree_taxons", :force => true do |t|
     t.integer  "parent_id"
@@ -681,7 +681,7 @@ ActiveRecord::Schema.define(:version => 20121030210001) do
     t.boolean  "is_master",                                   :default => false
     t.integer  "product_id"
     t.integer  "count_on_hand",                               :default => 0,     :null => false
-    t.decimal  "cost_price",    :precision => 8, :scale => 2
+    t.decimal  "cost_price",    :precision => 8, :scale => 2, :default => 0.0
     t.integer  "position"
   end
 

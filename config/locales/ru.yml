@@ -207,6 +207,7 @@ ru:
         cost_price: "Себестоимость"
         description: "Описание"
         master_price: "Основная цена"
+        sale_price: "Акционная цена"
         name: "Название"
         on_hand: "В наличии"
         shipping_category: "Категория доставки"

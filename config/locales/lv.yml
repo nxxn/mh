@@ -190,6 +190,7 @@ lv:
         cost_price: "Pašizmaksa"
         description: "Apraksts"
         master_price: "Gala cena/Master Price"
+        sale_price: "Акционная цена"
         name: "Nosaukums"
         on_hand: "Pieejams"
         shipping_category: "Piegādes kategorija"

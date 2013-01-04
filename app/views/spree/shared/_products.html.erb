@@ -21,7 +21,7 @@
         <span id="price_products_list" class="price selling" itemprop="price"><%= number_to_currency(product.price) %> </span>
 
         <div class="cart_list">
-        <%= form_for :order, :url => populate_orders_url do |f| %>
+        <%= form_for :order, :url => populate_orders_url, :remote => true do |f| %>
 
           <% if product.has_stock? || Spree::Config[:allow_backorders] %>
             <%= number_field_tag (product.has_variants? ? :quantity : "variants[#{product.master.id}]"),
