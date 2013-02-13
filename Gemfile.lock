@@ -1,12 +1,21 @@
 GIT
   remote: git://github.com/spree/spree_auth_devise
-  revision: 859b10a930ab7177b937af31c70ca7b1374b5e02
+  revision: 077029cedd48570e4423ba2d99f0fa38300f70ea
+  branch: 1-2-stable
   specs:
-    spree_auth_devise (1.0.0)
+    spree_auth_devise (1.2.0)
       cancan (~> 1.6.7)
-      devise (~> 2.1.2)
-      devise-encryptable
+      devise (~> 2.2.3)
+      devise-encryptable (= 0.1.1)
       spree_core
+
+GIT
+  remote: git://github.com/spree/spree_editor.git
+  revision: 6a08e125b394b84c1643dc52a0c8b1bd57987864
+  specs:
+    spree_editor (1.0.1)
+      spree_core (>= 1.0.0)
+      tinymce-rails (>= 3.4.7.0.1)
 
 GIT
   remote: git://github.com/spree/spree_related_products.git
@@ -26,16 +35,8 @@ GIT
       spree_core (~> 1.2.0)
 
 GIT
-  remote: git://raw.github.com/spree/spree_editor.git
-  revision: 9846455f5b48615a328d334e37f619ba7a571ba4
-  specs:
-    spree_editor (1.0.1)
-      spree_core (>= 1.0.0)
-      tinymce-rails (>= 3.4.7.0.1)
-
-GIT
   remote: https://github.com/jdutil/spree_contact_us
-  revision: d1b35c295edb0217dbf80b1c39a7dbd77d18e260
+  revision: 2b351b7c8b4d58d37aed3c968134c7406dc7a0a4
   branch: 1-2-stable
   specs:
     spree_contact_us (1.1.0)
@@ -93,7 +94,10 @@ GEM
     bcrypt-ruby (3.0.1-x86-mingw32)
     builder (3.0.4)
     cancan (1.6.7)
-    cocaine (0.4.2)
+    climate_control (0.0.3)
+      activesupport (>= 3.0)
+    cocaine (0.5.1)
+      climate_control (>= 0.0.3, < 1.0)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -104,7 +108,7 @@ GEM
     deface (0.9.1)
       nokogiri (~> 1.5.0)
       rails (~> 3.1)
-    devise (2.1.2)
+    devise (2.2.3)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.1)
       railties (~> 3.1)
@@ -127,10 +131,10 @@ GEM
       multi_xml
     i18n (0.6.1)
     journey (1.0.4)
-    jquery-rails (2.1.4)
+    jquery-rails (2.2.1)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
-    json (1.7.5)
+    json (1.7.7)
     kaminari (0.14.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
@@ -138,19 +142,19 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    mime-types (1.19)
+    mime-types (1.21)
     money (5.0.0)
       i18n (~> 0.4)
       json
-    multi_json (1.5.0)
-    multi_xml (0.5.1)
+    multi_json (1.6.0)
+    multi_xml (0.5.3)
     mysql2 (0.3.11-x86-mingw32)
     nested_set (1.7.0)
       activerecord (>= 3.0.0)
       railties (>= 3.0.0)
     nokogiri (1.5.6-x86-mingw32)
     orm_adapter (0.4.0)
-    paper_trail (2.6.4)
+    paper_trail (2.7.0)
       activerecord (~> 3.0)
       railties (~> 3.0)
     paperclip (2.8.0)
@@ -167,10 +171,10 @@ GEM
     rabl (0.6.5)
       activesupport (>= 2.3.14)
       multi_json (~> 1.0)
-    rack (1.4.1)
+    rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
-    rack-ssl (1.3.2)
+    rack-ssl (1.3.3)
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -190,19 +194,24 @@ GEM
       rdoc (~> 3.4)
       thor (>= 0.14.6, < 2.0)
     rake (10.0.3)
-    ransack (0.7.2)
+    ransack (0.7.3)
       actionpack (~> 3.0)
       activerecord (~> 3.0)
       polyamorous (~> 0.5.0)
-    rdoc (3.12)
+    rdoc (3.12.1)
       json (~> 1.4)
-    sass (3.2.3)
-    sass-rails (3.2.5)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    sass (3.2.5)
+    sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
       tilt (~> 1.3)
     select2-rails (0.0.9)
       thor (~> 0.14)
+    sequel (3.20.0)
+    sinatra (1.0)
+      rack (>= 1.0)
     spree (1.2.0)
       spree_api (= 1.2.0)
       spree_cmd (= 1.2.0)
@@ -244,9 +253,15 @@ GEM
       hike (~> 1.2)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
+    sqlite3 (1.3.6-x86-mingw32)
     state_machine (1.1.2)
     stringex (1.3.3)
-    thor (0.16.0)
+    taps (0.3.24)
+      rack (>= 1.0.1)
+      rest-client (>= 1.4.0, < 1.7.0)
+      sequel (~> 3.20.0)
+      sinatra (~> 1.0.0)
+    thor (0.17.0)
     tilt (1.3.3)
     tinymce-rails (3.5.8)
       railties (>= 3.1.1)
@@ -284,6 +299,8 @@ DEPENDENCIES
   spree_editor!
   spree_related_products!
   spree_static_content!
+  sqlite3
+  taps
   tinymce-rails (>= 3.4.7.0.1)
   tinymce-rails-langs
   uglifier (>= 1.0.3)
