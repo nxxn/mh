@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'rails', '3.2.8'
 
@@ -9,8 +9,8 @@ gem 'haml'
 gem 'globalize3'
 gem 'mysql2'
 
-gem 'sqlite3'
-gem 'taps'
+#gem 'sqlite3'
+#gem 'taps'
 
 
 # Gems used only for assets and not required
