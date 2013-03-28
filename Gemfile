@@ -56,7 +56,7 @@ gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise', :br
 gem 'spree_static_content', :git => 'git://github.com/spree/spree_static_content.git', :branch => '1-2-stable'
 gem 'spree_contact_us', :git => 'https://github.com/jdutil/spree_contact_us', :branch => '1-2-stable'
 gem 'spree_related_products', :git => 'git://github.com/spree/spree_related_products.git', :branch => '1-2-stable'
-gem 'spree_editor', :git => 'git://github.com/spree/spree_editor.git'
+gem 'spree_editor', :github => "spree/spree_editor"
 gem 'tinymce-rails', '>= 3.4.7.0.1'
 gem 'tinymce-rails-langs'
 gem 'devise-encryptable'
