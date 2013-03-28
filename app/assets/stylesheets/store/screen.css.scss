@@ -1190,14 +1190,18 @@ td.related_name {
   height: 70px;
   width: 450px;
 }
+p#bphone {
+  padding-bottom: 0px;
+}
 .number_correct {
   clear: both;
   font-size: 10px;
   color: red;
-  padding-left: 65px;
+  padding-left: 2px;
+  padding-top: 0px;
 }
 #shipping_method_list {
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   font-size: 14px;
 }
 #product_show_price {

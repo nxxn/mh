@@ -9,8 +9,8 @@ gem 'haml'
 gem 'globalize3'
 gem 'mysql2'
 
-#gem 'sqlite3'
-#gem 'taps'
+gem 'sqlite3'
+gem 'taps'
 
 
 # Gems used only for assets and not required
@@ -60,5 +60,3 @@ gem 'spree_editor', :git => 'git://github.com/spree/spree_editor.git'
 gem 'tinymce-rails', '>= 3.4.7.0.1'
 gem 'tinymce-rails-langs'
 gem 'devise-encryptable'
-
-#gem 'spree_ajax_add_to_cart', :git => 'git://github.com/joneslee85/spree_ajax_add_to_cart.git'

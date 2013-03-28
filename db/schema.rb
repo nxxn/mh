@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121030210001) do
+ActiveRecord::Schema.define(:version => 20130313014639) do
 
   create_table "spree_activators", :force => true do |t|
     t.string   "description"
@@ -570,6 +570,14 @@ ActiveRecord::Schema.define(:version => 20121030210001) do
     t.datetime "created_at",                                                         :null => false
     t.datetime "updated_at",                                                         :null => false
     t.boolean  "included_in_price",                               :default => false
+  end
+
+  create_table "spree_taxon_maps", :force => true do |t|
+    t.integer  "taxon_id"
+    t.string   "product_type"
+    t.integer  "priority"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
 
   create_table "spree_taxon_translations", :force => true do |t|
