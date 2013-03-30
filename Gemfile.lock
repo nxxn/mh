@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/spree/spree_auth_devise
-  revision: 077029cedd48570e4423ba2d99f0fa38300f70ea
+  revision: 8219ab596ccf6989856fbe60c128c3c1c5acc87a
   branch: 1-2-stable
   specs:
     spree_auth_devise (1.2.0)
@@ -8,14 +8,6 @@ GIT
       devise (~> 2.2.3)
       devise-encryptable (= 0.1.1)
       spree_core
-
-GIT
-  remote: git://github.com/spree/spree_editor.git
-  revision: 6a08e125b394b84c1643dc52a0c8b1bd57987864
-  specs:
-    spree_editor (1.0.1)
-      spree_core (>= 1.0.0)
-      tinymce-rails (>= 3.4.7.0.1)
 
 GIT
   remote: git://github.com/spree/spree_related_products.git
@@ -36,7 +28,7 @@ GIT
 
 GIT
   remote: https://github.com/jdutil/spree_contact_us
-  revision: 2b351b7c8b4d58d37aed3c968134c7406dc7a0a4
+  revision: 223aefd17d4890e55b14ede04ce2ac8fc599e496
   branch: 1-2-stable
   specs:
     spree_contact_us (1.1.0)
@@ -104,7 +96,7 @@ GEM
     coffee-script (2.2.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.4.0)
+    coffee-script-source (1.6.2)
     deface (0.9.1)
       nokogiri (~> 1.5.0)
       rails (~> 3.1)
@@ -123,13 +115,14 @@ GEM
       activemodel (>= 3.0.0)
       activerecord (>= 3.0.0)
       paper_trail (~> 2)
-    haml (3.1.7)
+    haml (4.0.1)
+      tilt
     highline (1.6.11)
     hike (1.2.1)
     httparty (0.8.3)
       multi_json (~> 1.0)
       multi_xml
-    i18n (0.6.1)
+    i18n (0.6.4)
     journey (1.0.4)
     jquery-rails (2.2.1)
       railties (>= 3.0, < 5.0)
@@ -146,15 +139,15 @@ GEM
     money (5.0.0)
       i18n (~> 0.4)
       json
-    multi_json (1.6.0)
+    multi_json (1.7.2)
     multi_xml (0.5.3)
     mysql2 (0.3.11-x86-mingw32)
     nested_set (1.7.0)
       activerecord (>= 3.0.0)
       railties (>= 3.0.0)
-    nokogiri (1.5.6-x86-mingw32)
+    nokogiri (1.5.9-x86-mingw32)
     orm_adapter (0.4.0)
-    paper_trail (2.7.0)
+    paper_trail (2.7.1)
       activerecord (~> 3.0)
       railties (~> 3.0)
     paperclip (2.8.0)
@@ -162,12 +155,12 @@ GEM
       activesupport (>= 2.3.2)
       cocaine (>= 0.0.2)
       mime-types
-    pg (0.14.1-x86-mingw32)
+    pg (0.15.0-x86-mingw32)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
-    quiet_assets (1.0.1)
-      railties (~> 3.1)
+    quiet_assets (1.0.2)
+      railties (>= 3.1, < 5.0)
     rabl (0.6.5)
       activesupport (>= 2.3.14)
       multi_json (~> 1.0)
@@ -193,14 +186,14 @@ GEM
       rake (>= 0.8.7)
       rdoc (~> 3.4)
       thor (>= 0.14.6, < 2.0)
-    rake (10.0.3)
+    rake (10.0.4)
     ransack (0.7.3)
       actionpack (~> 3.0)
       activerecord (~> 3.0)
       polyamorous (~> 0.5.0)
-    rdoc (3.12.1)
+    rdoc (3.12.2)
       json (~> 1.4)
-    sass (3.2.5)
+    sass (3.2.7)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
@@ -250,16 +243,16 @@ GEM
       tilt (~> 1.1, != 1.3.0)
     state_machine (1.1.2)
     stringex (1.3.3)
-    thor (0.17.0)
-    tilt (1.3.3)
-    tinymce-rails (3.5.8)
+    thor (0.18.0)
+    tilt (1.3.6)
+    tinymce-rails (3.5.8.1)
       railties (>= 3.1.1)
     tinymce-rails-langs (0.1)
       tinymce-rails (>= 3.4.9)
     treetop (1.4.12)
       polyglot
       polyglot (>= 0.3.1)
-    tzinfo (0.3.35)
+    tzinfo (0.3.37)
     uglifier (1.3.0)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
@@ -267,7 +260,8 @@ GEM
     warden (1.2.1)
       rack (>= 1.0)
 
-
+PLATFORMS
+  x86-mingw32
 
 DEPENDENCIES
   awesome_print
@@ -284,7 +278,6 @@ DEPENDENCIES
   spree (= 1.2.0)
   spree_auth_devise!
   spree_contact_us!
-  spree_editor!
   spree_related_products!
   spree_static_content!
   tinymce-rails (>= 3.4.7.0.1)
