@@ -9,6 +9,7 @@ gem 'haml'
 gem 'globalize3'
 gem 'mysql2'
 
+
 #gem 'sqlite3'
 #gem 'taps'
 
