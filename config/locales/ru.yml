@@ -1089,6 +1089,9 @@ ru:
     date: "Дата"
     time: "Время"
     contact_us:
+      contacts:
+        new:
+          contact_us: "Контакты"
       contact_mailer:
         contact_email:
           subject: "Тема"
