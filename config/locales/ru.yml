@@ -621,7 +621,7 @@ ru:
         # Where is the currency sign? %u is the currency unit, %n the number (default: $5.00)
         format: "%n %u"
         negative_format: "- %n %u"
-        unit: "LS"
+        unit: "EUR"
         # These three are to override number.format and are optional
         separator: "."
         delimiter: ""
