@@ -2,6 +2,7 @@ require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
 
+<<<<<<< HEAD
 # If you have a Gemfile, require the gems listed there, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env) if defined?(Bundler)
@@ -11,6 +12,30 @@ module SpreeHerokuDemo
   require 'spree_site'
   config.middleware.use "RedirectLegacyProductUrl"
   config.middleware.use "SeoAssist"
+=======
+if defined?(Bundler)
+  # If you precompile assets before deploying to production, use this line
+  Bundler.require(*Rails.groups(:assets => %w(development test)))
+  # If you want your assets lazily compiled in production, use this line
+  # Bundler.require(:default, :assets, Rails.env)
+end
+
+module Mh
+  class Application < Rails::Application
+    
+    config.to_prepare do
+      # Load application's model / class decorators
+      Dir.glob(File.join(File.dirname(__FILE__), "../app/**/*_decorator*.rb")) do |c|
+        Rails.configuration.cache_classes ? require(c) : load(c)
+      end
+
+      # Load application's view overrides
+      Dir.glob(File.join(File.dirname(__FILE__), "../app/overrides/*.rb")) do |c|
+        Rails.configuration.cache_classes ? require(c) : load(c)
+      end
+    end
+
+>>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
@@ -31,10 +56,16 @@ module SpreeHerokuDemo
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
+<<<<<<< HEAD
     config.i18n.default_locale = :ru
 
     # JavaScript files you want as :defaults (application.js is always included).
     # config.action_view.javascript_expansions[:defaults] = %w(jquery rails)
+=======
+    config.i18n.fallbacks = true
+    config.i18n.default_locale = :ru
+    config.i18n.available_locales = [:ru, :lv]
+>>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
 
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
@@ -42,6 +73,7 @@ module SpreeHerokuDemo
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
 
+<<<<<<< HEAD
   config.action_mailer.smtp_settings = {
     :address              => "smtp.gmail.com",
     :port                 => 587,
@@ -55,5 +87,26 @@ module SpreeHerokuDemo
   config.action_mailer.default_url_options = {
     :host => "musthave.lv"
   }
+=======
+    # Enable escaping HTML in JSON.
+    config.active_support.escape_html_entities_in_json = true
+
+    # Use SQL instead of Active Record's schema dumper when creating the database.
+    # This is necessary if your schema can't be completely dumped by the schema dumper,
+    # like if you have constraints or database-specific column types
+    # config.active_record.schema_format = :sql
+
+    # Enforce whitelist mode for mass assignment.
+    # This will create an empty whitelist of attributes available for mass-assignment for all models
+    # in your app. As such, your models will need to explicitly whitelist or blacklist accessible
+    # parameters by using an attr_accessible or attr_protected declaration.
+    config.active_record.whitelist_attributes = false
+
+    # Enable the asset pipeline
+    config.assets.enabled = true
+
+    # Version of your assets, change this if you want to expire all your assets
+    config.assets.version = '1.0'
+>>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   end
 end

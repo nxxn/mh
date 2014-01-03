@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/musthave-heroku.iml" filepath="$PROJECT_DIR$/.idea/musthave-heroku.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/mh.iml" filepath="$PROJECT_DIR$/.idea/mh.iml" />
+>>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
     </modules>
   </component>
 </project>

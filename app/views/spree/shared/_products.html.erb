@@ -1,0 +1,45 @@
+<%
+  paginated_products = @searcher.retrieve_products if params.key?(:keywords)
+  paginated_products ||= products
+%>
+<% if products.empty? %>
+  <%= t(:no_products_found) %>
+<% elsif params.key?(:keywords) %>
+  <h6 class="search-results-title"><%= t(:search_results, :keywords => h(params[:keywords])) %></h6>
+<% end %>
+
+<% if products.any? %>
+<ul id="products" class="inline product-listing" data-hook>
+  <% reset_cycle('default') %>
+  <% products.descend_by_updated_at.each do |product| %>
+    <% if Spree::Config[:show_zero_stock_products] || product.has_stock? %>
+      <li id="product_<%= product.id %>" class="columns three <%= cycle("alpha", "secondary", "", "omega secondary", :name => "classes") %>" data-hook="products_list_item" itemscope itemtype="http://schema.org/Product">
+        <div class="product-image">
+          <%= link_to small_image(product, :itemprop => "image"), product, :itemprop => 'url' %>
+        </div>
+        <%= link_to truncate(product.name, :length => 50), product, :class => 'info', :itemprop => "name", :title => product.name %>
+        <span id="price_products_list" class="price selling" itemprop="price"><%= number_to_currency(product.price) %> </span>
+
+        <div class="cart_list">
+        <%= form_for :order, :url => populate_orders_url, :remote => true do |f| %>
+
+          <% if product.has_stock? || Spree::Config[:allow_backorders] %>
+            <%= number_field_tag (product.has_variants? ? :quantity : "variants[#{product.master.id}]"),
+              1, :class => 'title', :in => 1..product.on_hand, :style => "display:none;" %>
+            <%= image_submit_tag("add.png", :class => "buy_it") %>
+          <% else %>
+            <%= content_tag('strong', t(:out_of_stock)) %>
+          <% end %>
+        <% end %>
+        </div>
+
+      </li>
+    <% end %>
+  <% end %>
+  <% reset_cycle("classes") %>
+</ul>
+<% end %>
+
+<% if paginated_products.respond_to?(:num_pages) %>
+  <%= paginate paginated_products %>
+<% end %>
