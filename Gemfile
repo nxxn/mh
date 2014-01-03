@@ -8,7 +8,6 @@ gem 'rails', '3.2.8'
 gem 'haml'
 gem 'globalize3'
 gem 'mysql2'
-gem 'aws'
 gem 'aws-sdk'
 gem 'paperclip'
 
