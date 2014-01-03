@@ -9,6 +9,8 @@ gem 'haml'
 gem 'globalize3'
 gem 'mysql2'
 gem 'aws'
+gem 'aws-sdk'
+gem 'paperclip'
 
 
 #gem 'sqlite3'
