@@ -9,6 +9,7 @@ gem 'haml'
 gem 'globalize3'
 gem 'mysql2'
 gem 'aws-s3'
+gem 'aws-sdk'
 gem 'paperclip'
 
 
