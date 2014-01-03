@@ -1,9 +1,0 @@
-3e0ebc3ebf6efec428d21eb21a3e8811984c248e		branch '1-2-stable' of git://github.com/spree/spree_auth_devise
-0be544ef895d38b0b07ba6ba12284bfa1c23bba4		branch '1-3-stable' of git://github.com/spree/spree_auth_devise
-3224869cfda188f8d7fc4f1eb630d862cd585bea		branch '2-0-stable' of git://github.com/spree/spree_auth_devise
-a7b47806f332e196af1b6ae170836e7d5346ff36		branch '2-1-stable' of git://github.com/spree/spree_auth_devise
-a85a9cb56fe11e628ce8ec20353e5438317f39de		branch 'edge' of git://github.com/spree/spree_auth_devise
-ffa61c63dcf3c9cbea23e7554d98026f326e62a3		branch 'i18n' of git://github.com/spree/spree_auth_devise
-3157b47b22c559817d34ec34024587d8aa6136dc		branch 'master' of git://github.com/spree/spree_auth_devise
-c27fac85b0827e5d39b080d646eeeccbfec85e4b		branch 'rails4' of git://github.com/spree/spree_auth_devise
-da5fc27809ccf8c0a45ef30e13c7dc8600cdced6		branch 'split_core' of git://github.com/spree/spree_auth_devise
