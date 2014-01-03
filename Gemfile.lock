@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 PATH
   remote: site
   specs:
@@ -175,7 +174,6 @@ DEPENDENCIES
   spree_editor
   spree_static_content
   sqlite3-ruby
-=======
 GIT
   remote: git://github.com/spree/spree_auth_devise
   revision: 8219ab596ccf6989856fbe60c128c3c1c5acc87a
@@ -461,4 +459,3 @@ DEPENDENCIES
   tinymce-rails (>= 3.4.7.0.1)
   tinymce-rails-langs
   uglifier (>= 1.0.3)
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
