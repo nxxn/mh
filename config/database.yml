@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-# SQLite version 3.x
-#   gem install sqlite3-ruby (not necessary on OS X Leopard)
-development:
-  adapter: sqlite3
-  database: db/development.sqlite3
-  pool: 5
-  timeout: 5000
-=======
+
 # MySQL.  Versions 4.1 and 5.0 are recommended.
 # 
 # Install the MYSQL driver
@@ -26,24 +18,12 @@ development:
   username: root
   password: mms13lol
   host: localhost
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
-<<<<<<< HEAD
-  adapter: sqlite3
-  database: db/test.sqlite3
-  pool: 5
-  timeout: 5000
 
-production:
-  adapter: sqlite3
-  database: db/production.sqlite3
-  pool: 5
-  timeout: 5000
-=======
   adapter: mysql2
   encoding: utf8
   reconnect: false
@@ -62,4 +42,3 @@ production:
   username: root
   password: mms13lol
   host: localhost
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526

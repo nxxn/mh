@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-ru:
-  message:
-    new:
-      title-name: "Ваше имя"
-      title-email: "Ваша электронная почта"
-      title-phone: "Ваш телефон"
-      title-body: "Ваш вопрос"
-      name: "Имя, Фамилия"
-      phone: "Телефон"
-      email: "Эл.почта"
-      send: "Отправить"
-  biggest_spenders: "5 крупнейших покупателей"
-=======
 ---
 ru:
   date:
@@ -138,7 +124,6 @@ ru:
   'no': "Нет"
   'yes': "Да"
   5_biggest_spenders: "5 крупнейших покупателей"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   a_copy_of_all_mail_will_be_sent_to_the_following_addresses: "Копии всех писем будут отосланы на следующие адреса"
   abbreviation: "Аббревиатура"
   access_denied: "Доступ запрещен"
@@ -154,31 +139,7 @@ ru:
     new: "Новый"
     update: "Изменить"
   active: "Активен"
-<<<<<<< HEAD
-  activerecord:
-    errors:
-      models:
-        address:
-          attributes:
-            firstname:
-              blank: "не введен"
-            lastname:
-              blank: "не введен"
-            address1:
-              blank: "не введен"
-            city:
-              blank: "не введен"
-            zipcode:
-              blank: "не введен"
-            phone:
-              blank: "не введен"
-        order:
-          attributes:
-            email:
-              invalid: "неверный"
-=======
   activerecord: 
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
     attributes: 
       address: 
         address1: "Адрес"
@@ -192,26 +153,7 @@ ru:
         phone: "Телефон"
         state: "Регион/Область"
         zipcode: "Индекс"
-<<<<<<< HEAD
-      checkout: 
-        bill_address: 
-          address1: "Платёжный адрес. Адрес"
-          city: "Платёжный адрес. Город"
-          firstname: "Платёжный адрес. Имя"
-          lastname: "Платёжный адрес. Фамилия"
-          phone: "Платёжный адрес. Телефон"
-          state: "Платёжный адрес. Регион/Область"
-          zipcode: "Платёжный адрес. Индекс"
-        ship_address: 
-          address1: "Адрес доставки. Адрес"
-          city: "Адрес доставки. Город"
-          firstname: "Адрес доставки. Имя"
-          lastname: "Адрес доставки. Фамилия"
-          phone: "Адрес доставки. Телефон"
-          state: "Адрес доставки. Регион/Область"
-          zipcode: "Адрес доставки. Индекс"
-=======
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
+
       country: 
         iso: "ISO"
         iso3: "ISO3"
@@ -230,8 +172,6 @@ ru:
         price: "Цена"
         quantity: "Количество"
       order: 
-<<<<<<< HEAD
-=======
         bill_address: 
           address1: "Платёжный адрес. Адрес"
           city: "Платёжный адрес. Город"
@@ -248,37 +188,27 @@ ru:
           phone: "Адрес доставки. Телефон"
           state: "Адрес доставки. Регион/Область"
           zipcode: "Адрес доставки. Индекс"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
         checkout_complete: "Заказ завершен"
         completed_at: "Дата завершения"
         coupon_code: "Код купона"
         ip_address: "IP адрес"
         item_total: "Всего товаров"
-<<<<<<< HEAD
-=======
         line_items: "Список товаров"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
         number: "Номер"
         special_instructions: "Дополнительные инструкции"
         state: "Статус"
         total: "Итого"
-<<<<<<< HEAD
-=======
       option_type:
         name: "Наименование"
         presentation: "Отображать как"
       payment_method:
         name: "Наименование"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
       product: 
         available_on: "Доступно с"
         cost_price: "Себестоимость"
         description: "Описание"
         master_price: "Основная цена"
-<<<<<<< HEAD
-=======
         sale_price: "Акционная цена"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
         name: "Название"
         on_hand: "В наличии"
         shipping_category: "Категория доставки"
@@ -323,13 +253,10 @@ ru:
       taxonomy: 
         name: "Наименование"
       user: 
-<<<<<<< HEAD
-        email: "Email"
-=======
+
         email: "Электронная почта"
         password: "Пароль"
         password_confirmation: "Подтверждение пароля"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
       variant: 
         cost_price: "Себестоимость"
         depth: "Глубина"
@@ -354,15 +281,7 @@ ru:
       creditcard: 
         one: "Кредитная карта"
         other: "Кредитные карты"
-<<<<<<< HEAD
-      creditcard_payment: 
-        one: "Платеж кредитной картой"
-        other: "Платежи кредитной картой"
-      creditcard_txn: 
-        one: "Транзакция по кредитной карте"
-        other: "Транзакции по кредитным картам"
-=======
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
+
       inventory_unit: 
         one: "Единица учета"
         other: "Единицы учета"
@@ -388,13 +307,9 @@ ru:
         one: "Прототип"
         other: "Прототипы"
       return_authorization: 
-<<<<<<< HEAD
-        one: "Разрешение возврата"
-        other: "Разрешения возврата"
-=======
+
         one: "Разрешение на возврат"
         other: "Разрешения на возврат"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
       role: 
         one: "Роль"
         other: "Роли"
@@ -450,11 +365,8 @@ ru:
   administration: "Администрирование"
   all: "все"
   all_departments: "Все разделы"
-<<<<<<< HEAD
-  allow_backorders: "Разрешить задолженные заказы"
-=======
+
   allow_backorders: "Разрешить предварительные заказы"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   allow_ssl_to_be_used_when_in_developement_and_test_modes: "Использовать SSL в development и test режимах"
   allow_ssl_to_be_used_when_in_production_mode: "Использовать SSL в production"
   allowed_ssl_in_production_mode: "SSL %{not} будет использован в режиме production"
@@ -480,15 +392,10 @@ ru:
   are_you_sure: "Вы уверены"
   are_you_sure_category: "Вы уверены, что хотите удалить эту категорию?"
   are_you_sure_delete: "Вы уверены, что хотите удалить эту запись?"
-<<<<<<< HEAD
-  are_you_sure_delete_image: "Вы уверены, что хотите удалить эту картинку?"
-  are_you_sure_option_type: "Вы уверены, что хотите удалить эту товарную опцию?"
-  are_you_sure_you_want_to_capture: "Вы уверены, что хотите провести платёж по кредитной карте?"
-=======
+
   are_you_sure_delete_image: "Вы уверены, что хотите удалить это изображение?"
   are_you_sure_option_type: "Вы уверены, что хотите удалить эту товарную опцию?"
   are_you_sure_you_want_to_capture: "Вы уверены, что хотите провести платёж?"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   assign_taxon: "Прикрепить к таксону"
   assign_taxons: "прикрепить к таксонам"
   authorization_failure: "Ошибка авторизации"
@@ -500,21 +407,15 @@ ru:
   back_end: "в администраторском интерфейсе"
   back_to_store: "Назад к списку"
   backordered: "предзаказ"
-<<<<<<< HEAD
-  backordering_is_allowed: "Задолженные заказы %{not} разрешены"
-=======
+
   backordering_is_allowed: "Предварительные заказы %{not} разрешены"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   balance_due: "Дебетовое сальдо"
   best_selling_products: "Товары-бестселлеры"
   best_selling_taxons: "Таксоны-бестселлеры"
   bill_address: "Платёжный адрес"
   billing: "Биллинг"
-<<<<<<< HEAD
-  billing_address: "Адрес доставки"
-=======
+
   billing_address: "Платёжный адрес"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   both: "везде"
   by_day: "за день"
   calculator: "Калькулятор"
@@ -526,11 +427,9 @@ ru:
   cannot_create_returns: "Невозможно оформить возврат, т.к. этот заказ ещё не отправлен."
   cannot_destory_line_item_as_inventory_units_have_shipped: "Невозможно удалить позицию, так как некоторые единицы инвентаризации уже отправлены."
   cannot_perform_operation: "Невозможно выполнить требуемую операцию"
-<<<<<<< HEAD
-  capture: "Провести платёж по кредитной карте"
-=======
+
   capture: "Провести платёж"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
+ 
   card_code: "Код карты"
   card_details: "Информация о карте"
   card_number: "Номер карты"
@@ -580,11 +479,7 @@ ru:
   credit_card_payment: "Платёж кредитной картой"
   credit_owed: "Кредитная задолженность"
   credit_total: "Итого по кредитным картам"
-<<<<<<< HEAD
-  creditcard: "Кредитная карта"
-  creditcards: "Кредитнык карты"
-=======
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
+
   credits: "Кредиты"
   current: "Текущий"
   customer: "Клиент"
@@ -594,10 +489,7 @@ ru:
   date_range: "Период времени"
   debit: "Дебет"
   default: "По умолчанию"
-<<<<<<< HEAD
-=======
   default_seo_title: "SEO-заголовок по умолчанию"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   delete: "Удалить"
   delivery: "Доставка"
   depth: "Глубина"
@@ -628,16 +520,10 @@ ru:
   editing_tracker: "Редактирование трекера"
   editing_user: "Редактирование пользователя"
   editing_zone: "Редактирование зоны"
-<<<<<<< HEAD
-  email: "Email"
-  email_address: "Email адрес"
-  email_server_settings_description: "Настройки сервера email."
-=======
   email: "Электронная почта"
   your_email: "Ваш e-mail"
   email_address: "Адрес электронной почты"
   email_server_settings_description: "Настройки сервера электронной почты."
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   empty: "пусто"
   empty_cart: "Очистить корзину"
   enable_login_via_login_password: "Авторизоваться с помощью пары email/пароль"
@@ -652,16 +538,11 @@ ru:
     messages: 
       could_not_create_taxon: "Could not create taxon"
       no_shipping_methods_available: "Для указанного местоположения отсутствуют способы доставки, пожалуйста, смените адрес и попробуйте снова."
-<<<<<<< HEAD
-  errors_prohibited_this_record_from_being_saved: 
-    one: "1 ошибка не позволяет сохранить запись в базе"
-    other: "%{count} ошибок не позволяют сохранить запись в базе"
-=======
+
   errors_prohibited_this_record_from_being_saved:
     one: "1 ошибка не позволяет сохранить запись в базе"
     few: "%{count} ошибки не позволяют сохранить запрос в базе"
     many: "%{count} ошибок не позволяют сохранить запись в базе"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   event: "Событие"
   existing_customer: "Для зарегистрированных пользователей"
   expiration: "Окончание действия"
@@ -703,11 +584,8 @@ ru:
   google_analytics_new: "Новая учетная запись Google Analytics"
   google_analytics_setting_description: "Управление Google Analytics ID"
   guest_checkout: "Гостевой заказ"
-<<<<<<< HEAD
-  guest_user_account: "Оформление покупки"
-=======
+
   guest_user_account: "Оформить покупку"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   has_no_shipped_units: "не имеет отправленных единиц учёта"
   height: "Высота"
   hello_user: "Добро пожаловать"
@@ -715,39 +593,25 @@ ru:
   home: "Главная"
   icon: "Иконка"
   icons_by: "Иконки предоставлены"
-<<<<<<< HEAD
-  image: "Картинка"
-  images: "Картинки"
-  images_for: "Картинки для"
-=======
+
   image: "Изображение"
   images: "Изображения"
   images_for: "Изображения для"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   in_progress: "В процессе"
   include_in_shipment: "Включить в отправку"
   included_in_other_shipment: "Включено в другую отправку"
   included_in_this_shipment: "Включено в эту отправку"
-<<<<<<< HEAD
-  instructions_to_reset_password: "Заполните форму, чтобы спросить пароль, новый пароль будет отправлен к вам по email"
-=======
+
   instructions_to_reset_password: "Чтобы сбросить пароль, заполните форму ниже. Новый пароль будет отправлен вам по указанному email"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   integration_settings_warning: "Если вы меняете платежную систему, то необходимо сохранить данное изменение, только после этого вы сможете редактировать параметры интеграции"
   intercept_email_address: "Перехват писем"
   intercept_email_instructions: "Заменить email получателя на этот адрес."
   invalid_search: "Неверный критерий поиска."
-<<<<<<< HEAD
-  inventory: "Ассортимент"
-  inventory_adjustment: "Надбавки"
-  inventory_setting_description: "Управление ассортиментом, задолженные заказы, отображение отсутствующих товаров"
-  inventory_settings: "Настройки ассортимента"
-=======
+
   inventory: "Товарная номенклатура"
   inventory_adjustment: "Надбавки"
   inventory_setting_description: "Управление товарной номенклатуры, предварительные заказы, отображение отсутствующих товаров"
   inventory_settings: "Настройки товарной номенклатуры"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   is_not_available_to_shipment_address: "не может быть применён к указанному адресу доставки"
   issue_number: "Номер проблемы ??"
   item: "Наименование"
@@ -777,20 +641,14 @@ ru:
   live: "Live"
   loading: "Загружается"
   locale_changed: "Язык изменён"
-<<<<<<< HEAD
-  log_in: "Войти"
-=======
+
   log_in: "Вход для клиентов"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   logged_in_as: "Пользователь"
   logged_in_succesfully: "Вы вошли в систему"
   logged_out: "Вы вышли из системы."
   login: "Логин"
-<<<<<<< HEAD
-  login_as_existing: "Вход"
-=======
+
   login_as_existing: "Войти как покупатель"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   login_failed: "Вход не выполнен."
   login_name: "Логин"
   logout: "Выйти"
@@ -820,11 +678,8 @@ ru:
   new_billing_integration: "Новая интеграция с биллингом"
   new_category: "Новая категория"
   new_customer: "Для новых пользователей"
-<<<<<<< HEAD
-  new_image: "Новая картинка"
-=======
+
   new_image: "Новое изображение"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   new_mail_method: "Новый метод отправки почты"
   new_option_type: "Новая опция"
   new_option_value: "Новое значение опции"
@@ -837,11 +692,8 @@ ru:
   new_promotion: "Новая акция"
   new_property: "Новое свойство"
   new_prototype: "Новый прототип"
-<<<<<<< HEAD
-  new_return_authorization: "Новое разрешение возврата"
-=======
+
   new_return_authorization: "Новое разрешение на возврат"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   new_shipment: "Новая отправка"
   new_shipping_category: "Новая категория доставки"
   new_shipping_method: "Новый способ доставки"
@@ -876,26 +728,7 @@ ru:
     product_not_deleted: "Товар не может быть удалён"
     variant_deleted: "Вариант успешно удалён"
     variant_not_deleted: "Вариант не может быть удален"
-<<<<<<< HEAD
-  number:
-    # Used in number_to_currency()
-    currency:
-      format:
-        # Формат отображения валюты и обозначение самой валюты
-        #
-        #
-        # Where is the currency sign? %u is the currency unit, %n the number (default: $5.00)
-        format: "%n %u"
-        negative_format: "- %n %u"
-        unit: "EUR"
-        # These three are to override number.format and are optional
-        separator: "."
-        delimiter: ""
-        precision: 2
-    format:
-      separator: "."
-=======
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
+
   on_hand: "В наличии"
   operation: "Операция"
   option_type: "Товарная опция"
@@ -931,11 +764,8 @@ ru:
     complete: "Завершение"
     confirm: "Подтверждение"
     delivery: "Доставка"
-<<<<<<< HEAD
-    payment: "Купон"
-=======
+
     payment: "Оплата"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
     resumed: "Возобновлён"
     returned: "Возвращён"
   order_summary: "Сводка по заказу"
@@ -1137,10 +967,8 @@ ru:
     match_policies: 
       all: "Соответствует всем этим правилам"
       any: "Соответствует хотя бы одному правилу"
-<<<<<<< HEAD
-=======
+
   promotion_rule: "Правило"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   promotion_rule_types: 
     first_order: 
       description: "Должен быть первым заказом покупателя"
@@ -1192,15 +1020,10 @@ ru:
   resume: "возобновить"
   resumed: "Возобновлен"
   return: "возвратить"
-<<<<<<< HEAD
-  return_authorization: "Разрешение возврата"
-  return_authorization_updated: "Разрешение возврата обновлено"
-  return_authorizations: "Разрешения возврата"
-=======
+
   return_authorization: "Разрешение на возврат"
   return_authorization_updated: "Разрешение на возврат обновлено"
   return_authorizations: "Разрешения на возврат"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   return_quantity: "возвращенное количество"
   returned: "Возвращенные"
   rma_credit: RMA Credit
@@ -1210,11 +1033,8 @@ ru:
   rules: "Правила"
   sales_tax: "Налог с продаж"
   sales_total: "Итого (продажи)"
-<<<<<<< HEAD
-  sales_total_description: "Выручка по всем заказам"
-=======
+
   sales_total_description: "Общий объём продаж по всем заказам"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   save_and_continue: "Сохранить и продолжить"
   save_preferences: "Сохранить настройки"
   scope: "Фильтр"
@@ -1223,10 +1043,7 @@ ru:
   search_results: "Результаты поиска по запросу '%{keywords}'"
   searching: "Идёт поиск..."
   secure_connection_type: "Тип защищенного соединения"
-<<<<<<< HEAD
-  secure_creditcard: "Безопасная кредитная карта"
-=======
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
+
   select: "Выбрать"
   select_from_prototype: "Выбрать из прототипов"
   select_preferred_shipping_option: "Выберите предпочитаемый способ доставки"
@@ -1297,8 +1114,6 @@ ru:
   spree: 
     date: "Дата"
     time: "Время"
-<<<<<<< HEAD
-=======
     contact_us:
       contacts:
         new:
@@ -1308,7 +1123,6 @@ ru:
           subject: "Тема"
       notices:
         success: "Сообщение отправлено"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   spree_gateway_error_flash_for_checkout: "Возникли проблемы с Вашими реквизитами. Пожалуйста, проверьте их и попробуйте ещё раз."
   ssl_will_be_used_in_development_and_test_modes: "SSL шифрование будет включено в режимах development и test."
   ssl_will_be_used_in_production_mode: "SSL шифрование будет включено в режиме production."
@@ -1325,11 +1139,8 @@ ru:
   store: "В магазин"
   street_address: "Адрес"
   street_address_2: "Адрес (строка 2)"
-<<<<<<< HEAD
-  subtotal: "Подытог"
-=======
+
   subtotal: "Подитог"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   subtract: "Вычет"
   successfully_created: "%{resource} был успешно создан!"
   successfully_removed: "%{resource} был успешно удален!"
@@ -1424,17 +1235,7 @@ ru:
   zone_based: "Состоит из других зон"
   zone_setting_description: "Настройка торговых зон на основе стран, областей и других торговых зон."
   zones: "Торговые зоны"
-<<<<<<< HEAD
-  to_cart: "В корзину"
-  available_quantity: "Доступное количество"
-  more: "Подробнее"
-  phone_is_correct: "Убедитесь, что номер правильный!"
-  if_coupon: "Если у Вас есть купон, введите его код ниже."
-  if_no_coupon: "Если купон отсутствует, то просто нажмите"
-  comments: "Комментарии"
-  delivery_time: "Укажите удобное для Вас время доставки или другие пожелания!"
-  
-=======
+
 
   available_quantity: "Доступное количество"
   submit: "Отправить"
@@ -1461,7 +1262,7 @@ ru:
         # Where is the currency sign? %u is the currency unit, %n the number (default: $5.00)
         format: "%n %u"
         negative_format: "- %n %u"
-        unit: "Ls"
+        unit: "Eur"
         # These three are to override number.format and are optional
         separator: "."
         delimiter: ""
@@ -1474,4 +1275,3 @@ ru:
       next: ">>"
       previous: "<<"
       truncate: "..."
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526

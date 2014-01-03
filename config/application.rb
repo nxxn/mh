@@ -2,17 +2,6 @@ require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
 
-<<<<<<< HEAD
-# If you have a Gemfile, require the gems listed there, including any gems
-# you've limited to :test, :development, or :production.
-Bundler.require(:default, Rails.env) if defined?(Bundler)
-
-module SpreeHerokuDemo
-  class Application < Rails::Application
-  require 'spree_site'
-  config.middleware.use "RedirectLegacyProductUrl"
-  config.middleware.use "SeoAssist"
-=======
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
   Bundler.require(*Rails.groups(:assets => %w(development test)))
@@ -35,7 +24,6 @@ module Mh
       end
     end
 
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
@@ -56,16 +44,10 @@ module Mh
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
-<<<<<<< HEAD
-    config.i18n.default_locale = :ru
 
-    # JavaScript files you want as :defaults (application.js is always included).
-    # config.action_view.javascript_expansions[:defaults] = %w(jquery rails)
-=======
     config.i18n.fallbacks = true
     config.i18n.default_locale = :ru
     config.i18n.available_locales = [:ru, :lv]
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
 
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
@@ -73,21 +55,7 @@ module Mh
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
 
-<<<<<<< HEAD
-  config.action_mailer.smtp_settings = {
-    :address              => "smtp.gmail.com",
-    :port                 => 587,
-    :domain               => "musthave.lv",
-    :user_name            => "order@musthave.lv",
-    :password             => "mms13lol",
-    :authentication       => :plain,
-    :enable_starttls_auto => true
-  }
 
-  config.action_mailer.default_url_options = {
-    :host => "musthave.lv"
-  }
-=======
     # Enable escaping HTML in JSON.
     config.active_support.escape_html_entities_in_json = true
 
@@ -107,6 +75,5 @@ module Mh
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   end
 end

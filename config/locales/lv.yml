@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-lv:
-  biggest_spenders: "5 lielākie klienti"
-=======
 ---
 lv:
   date:
@@ -117,18 +113,14 @@ lv:
   'no': "Nē"
   'yes': "Jā"
   5_biggest_spenders: "5 lielākie klienti"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   a_copy_of_all_mail_will_be_sent_to_the_following_addresses: "Visi e-pasti tiks pārsūtīti arī uz šīm adresēm"
   abbreviation: "Saīsinājums"
   access_denied: "Pieeja liegta"
   account: "Konts"
   account_updated: "Konts izmainīts!"
   action: "Darbība"
-<<<<<<< HEAD
-  actions:
-=======
+
   actions: 
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
     cancel: "Atcelt"
     create: "Izveidot"
     destroy: "Dzēst"
@@ -138,13 +130,9 @@ lv:
     update: "Atjauninājums"
   active: "Aktīvs"
   activerecord: 
-<<<<<<< HEAD
-    attributes: 
-      address: 
-=======
+
     attributes:
       spree/address:
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
         address1: "Adrese"
         address2: "Adrese (papildus)"
         city: "Pilsēta"
@@ -156,26 +144,7 @@ lv:
         phone: "Telefons"
         state: "Rajons"
         zipcode: "Pasta indekss"
-<<<<<<< HEAD
-      checkout: 
-        bill_address: 
-          address1: "Rēķina adrese - iela"
-          city: "Rēķina adrese - pilsēta"
-          firstname: "Rēķina adrese - vārds"
-          lastname: "Rēķina adrese - uzvārds"
-          phone: "Rēķina adrese - telefona nr."
-          state: "Rēķina adrese - rajons"
-          zipcode: "Rēķina adrese - pasta indekss"
-        ship_address: 
-          address1: "Nosūtīšanas adrese - iela"
-          city: "Nosūtīšanas adrese - pilsēta"
-          firstname: "Nosūtīšanas adrese - vārds"
-          lastname: "Nosūtīšanas adrese - uzvārds"
-          phone: "Nosūtīšanas adrese - telefona nr."
-          state: "Nosūtīšanas adrese - rajons"
-          zipcode: "Nosūtīšanas adrese - pasta indekss"
-      country: 
-=======
+
       spree/checkout/bill_address:
         address1: "Rēķina adrese - iela"
         city: "Rēķina adrese - pilsēta"
@@ -193,37 +162,24 @@ lv:
         state: "Nosūtīšanas adrese - rajons"
         zipcode: "Nosūtīšanas adrese - pasta indekss"
       spree/country:
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
         iso: ISO
         iso3: ISO3
         iso_name: "ISO vārds"
         name: "Nosaukums"
         numcode: "ISO kods"
-<<<<<<< HEAD
-      creditcard: 
-=======
+
       spree/creditcard:
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
         cc_type: "Tips"
         month: "Mēnesis"
         number: "Skaitlis"
         verification_value: "Pārbaudes vērtība"
         year: "Gads"
-<<<<<<< HEAD
-      inventory_unit: 
-        state: "Apgabals"
-      line_item: 
-        price: "Cena"
-        quantity: "Daudzums"
-      order: 
-=======
       spree/inventory_unit:
         state: "Apgabals"
       spree/line_item:
         price: "Cena"
         quantity: "Daudzums"
       spree/order:
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
         checkout_complete: "Izrakstīšanās pabeigta"
         completed_at: "Completed At"
         coupon_code: "Coupon Code"
@@ -233,64 +189,25 @@ lv:
         special_instructions: "Īpašas norādes"
         state: "Apgabals"
         total: "Kopā"
-<<<<<<< HEAD
-      product: 
-=======
+
       spree/product:
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
         available_on: "Pieejams pēc"
         cost_price: "Pašizmaksa"
         description: "Apraksts"
         master_price: "Gala cena/Master Price"
-<<<<<<< HEAD
-=======
         sale_price: "Акционная цена"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
         name: "Nosaukums"
         on_hand: "Pieejams"
         shipping_category: "Piegādes kategorija"
         tax_category: "Nodokļu kategorija"
-<<<<<<< HEAD
-      product_group: 
-=======
+
       spree/product_group:
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
         name: "Nosaukums"
         product_count: "Produktu skaits"
         product_scopes: "Produkta lietošanas joma"
         products: "Produkti"
         url: URL
-<<<<<<< HEAD
-      product_scope: 
-        arguments: "Argumenti"
-        description: "Apraksts"
-      property: 
-        name: "Nosaukums"
-        presentation: "Prezentācija"
-      prototype: 
-        name: "Nosaukums"
-      return_authorization: 
-        amount: "Summa"
-      role: 
-        name: "Nosaukums"
-      state: 
-        abbr: "Saīsinājums"
-        name: "Nosaukums"
-      tax_category: 
-        description: "Apraksts"
-        name: "Nosaukums"
-      tax_rate: 
-        amount: "Summa"
-      taxon: 
-        name: "Nosaukums"
-        permalink: Permalink
-        position: "Stāvoklis"
-      taxonomy: 
-        name: "Nosaukums"
-      user: 
-        email: "Epasts"
-      variant: 
-=======
+
       spree/product_scope:
         arguments: "Argumenti"
         description: "Apraksts"
@@ -329,7 +246,6 @@ lv:
         login: "Lietotājvārds"
         password: "Parole"
       spree/variant:
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
         cost_price: "Pašizmaksa"
         depth: "Biezums"
         height: "Augstums"
@@ -337,88 +253,7 @@ lv:
         sku: SKU
         weight: "Svars"
         width: "Platums"
-<<<<<<< HEAD
-      zone: 
-        description: "Apraksts"
-        name: "Nosaukums"
-    models: 
-      address: 
-        one: "Adrese"
-        other: "Adreses"
-      cheque_payment: 
-        one: "Samaksa ar čeku"
-        other: "Samaksa ar čeku"
-      country: 
-        one: "Valsts"
-        other: "Valstis"
-      creditcard: 
-        one: "Kredītkarte"
-        other: "Kredītkartes"
-      creditcard_payment: 
-        one: "Kredītkartes maksājums"
-        other: "Kredītkartes maksājums"
-      creditcard_txn: 
-        one: "Kredītkartes transakcija"
-        other: "Kredītkartes transakcijas"
-      inventory_unit: 
-        one: "Krājuma vienība"
-        other: "Krājuma vienības"
-      line_item: 
-        one: "Pozīcijas vienība"
-        other: "Pozīcijas vienības"
-      order: 
-        one: "Pasūtījums"
-        other: "Pasūtījumi"
-      payment: 
-        one: "Maksājums"
-        other: "Maksājumi"
-      product: 
-        one: "Produkts"
-        other: "Produkti"
-      product_group: 
-        one: "Produkta grupa"
-        other: "Produkta grupas"
-      property: 
-        one: Property
-        other: Properties
-      prototype: 
-        one: "Prototips"
-        other: "Prototipi"
-      return_authorization: 
-        one: "Atgriešanas autorizācija"
-        other: "Atgriešanas autorizācijas"
-      role: 
-        one: "Loma"
-        other: "Lomas"
-      shipment: 
-        one: "Sūtījums"
-        other: "Sūtījumi"
-      shipping_category: 
-        one: "Piegādes kategorija"
-        other: "Piegādes kategorijas"
-      state: 
-        one: "Štats"
-        other: "Štati"
-      tax_category: 
-        one: "Nodokļu kategorija"
-        other: "Nodokļu kategorijas"
-      tax_rate: 
-        one: "Nodokļu likme"
-        other: "Nodokļu likmes"
-      taxon: 
-        one: Taxon
-        other: Taxons
-      taxonomy: 
-        one: Taxonomy
-        other: Taxonomies
-      user: 
-        one: "Lietotājs"
-        other: "Lietotāji"
-      variant: 
-        one: Variant
-        other: Variants
-      zone: 
-=======
+
       spree/zone:
         description: "Apraksts"
         name: "Nosaukums"
@@ -493,7 +328,6 @@ lv:
         one: Variant
         other: Variants
       spree/zone:
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
         one: "Zona"
         other: "Zonas"
   add: "Pievienot"
@@ -564,11 +398,8 @@ lv:
   best_selling_taxons: "Best Selling Taxons"
   bill_address: "Rēķina adrese"
   billing: "Rēķins"
-<<<<<<< HEAD
-  billing_address: "Piegādes adrese"
-=======
+
   billing_address: "Rēķina adrese"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   both: "Abi"
   by_day: "dienā"
   calculator: "Kalkulātors"
@@ -594,11 +425,8 @@ lv:
   charge_total: "Kopējā summa"
   charged: "Samaksāts"
   charges: Charges
-<<<<<<< HEAD
-  checkout: Checkout
-=======
+
   checkout: Pasūtīt
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   cheque: "Čeks"
   city: "Pilsēta"
   clone: "Klonēt"
@@ -634,11 +462,7 @@ lv:
   credit_card_payment: "Kredītkartes maksājums"
   credit_owed: "Kredīta parāds"
   credit_total: "Kopējais kredīts"
-<<<<<<< HEAD
-  creditcard: "Kredītkarte"
-  creditcards: "Kredītkartes"
-=======
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
+
   credits: "Kredīti"
   current: "Tagadējais"
   customer: "Klients"
@@ -651,11 +475,8 @@ lv:
   delete: "Izdzēst"
   delivery: Delivery
   depth: "Dziļums"
-<<<<<<< HEAD
-  description: Nosaukums
-=======
+
   description: "Apraksts"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   destroy: "Izdzēst"
   didnt_receive_confirmation_instructions: "Didn't receive confirmation instructions?"
   didnt_receive_unlock_instructions: "Didn't receive unlock instructions?"
@@ -683,18 +504,12 @@ lv:
   editing_user: "Rediģēt lietotāju"
   editing_zone: "Rediģēt zonu"
   email: "E-pasts"
-<<<<<<< HEAD
-  email_address: "Epasta adrese"
-  email_server_settings_description: "E-pasta servera uzstādījumi."
-  empty: "Empty"
-  empty_cart: "Tukšs grozs"
-=======
+
   your_email: "Jūsu e-pasts"
   email_address: "Epasta adrese"
   email_server_settings_description: "E-pasta servera uzstādījumi."
   empty: "Tukšs"
   empty_cart: "Iztukšot grozu"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   enable_login_via_login_password: "Izmanto standarta e-pastu/paroli"
   enable_login_via_openid: "Tā vietā izmantot atvērto ID"
   enable_mail_delivery: "Atļaut pasta sūtīšanu"
@@ -705,18 +520,12 @@ lv:
   error: "Kļūda"
   errors: 
     messages: 
-<<<<<<< HEAD
-      no_shipping_methods_available: "No shipping methods available for selected location, please change your address and try again."
-  errors_prohibited_this_record_from_being_saved: 
-    one: "1 error prohibited this record from being saved"
-    other: "%{count} errors prohibited this record from being saved"
-=======
+
       could_not_create_taxon: "Could not create taxon"
       no_shipping_methods_available: "No shipping methods available for selected location, please change your address and try again."
   errors_prohibited_this_record_from_being_saved: 
     one: "Dēļ 1 kļūdas ieraksts netika saglabāts"
     other: "Dēļ %{count} kļūdām ieraksts netika saglabāts"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   event: "Notikums"
   existing_customer: "Esošais klients"
   expiration: "Izbeigšanās"
@@ -758,20 +567,14 @@ lv:
   google_analytics_new: "Jauns Google analītiķa konts"
   google_analytics_setting_description: "Pārvaldīt Google analītiķa ID"
   guest_checkout: "Ciemiņa izrakstīšanās"
-<<<<<<< HEAD
-  guest_user_account: "Izrakstīties kā ciemiņam"
-=======
+
   guest_user_account: "Noformēt pirkumu"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   has_no_shipped_units: "Nav nosūtītu vienību"
   height: "Augstums"
   hello_user: "Sveiks lietotāj"
   history: "Vēsture"
-<<<<<<< HEAD
-  home: "Mājas"
-=======
+
   home: "Galvenā"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   icon: "Icon"
   icons_by: "Ikonas"
   image: "Attēls"
@@ -809,18 +612,7 @@ lv:
   last_year: "Pēdējais gads"
   leave_blank_to_not_change: "(leave blank if you don't want to change it)"
   list: "Saraksts"
-<<<<<<< HEAD
-  listing_categories: "Uzskaitāmās kategorijas"
-  listing_option_types: "Uzskaitāmie opcijas tipi"
-  listing_orders: "Uzskaitāmie pasūtījumi"
-  listing_product_groups: "Uzskaitāmās produktu grupas"
-  listing_reports: "Uzskaitāmā atskaite"
-  listing_tax_categories: "Uzskaitāmā nodokļu kategorija"
-  listing_users: "Uzskaitāmie lietotāji"
-  live: "Live"
-  loading: "Lādējās"
-  locale_changed: "Darbības vieta izmainīta"
-=======
+
   listing_categories: "Kategorijas"
   listing_option_types: "Opcijas tipi"
   listing_orders: "Pasūtījumi"
@@ -832,7 +624,6 @@ lv:
   live: "Live"
   loading: "Lādējās"
   locale_changed: "Valoda nomainīta"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   log_in: "Pieslēgties"
   logged_in_as: "Pieslēgties kā"
   logged_in_succesfully: "Pieslēgšanās veiksmīga"
@@ -840,15 +631,10 @@ lv:
   login: Login
   login_as_existing: "Pieslēgties kā esošais klients"
   login_failed: "Pieslēgšanās sistēmai neizdevās."
-<<<<<<< HEAD
-  login_name: "Ielagoties"
-  logout: "Izlagoties"
-  look_for_similar_items: "Meklēt līdzīgas vienības"
-=======
+
   login_name: "Pieslēgties"
   logout: "Atslēgties"
   look_for_similar_items: "Meklēt līdzīgas preces"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   maestro_or_solo_cards: "Maestro/Solo kartes"
   mail_delivery_enabled: "Pasta sūtīšana ir atļauta"
   mail_delivery_not_enabled: "Pasta sūtīšana nav atļauta"
@@ -874,11 +660,8 @@ lv:
   new_billing_integration: New Billing Integration
   new_category: "Jauna kategorija"
   new_customer: "Jauns klients"
-<<<<<<< HEAD
-  new_image: "Jauns tēls"
-=======
+
   new_image: "Jauns attēls"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   new_mail_method: New Mail Method
   new_option_type: "Jauns opciju tips"
   new_option_value: "Jauna opcijas vērtība"
@@ -907,13 +690,9 @@ lv:
   next: "Nākamais"
   no_items_in_cart: ""
   no_match_found: "Nekas netika atrasts"
-<<<<<<< HEAD
-  no_payment_methods_available: "Nevar noslēgt darījumu, nekāda maksājuma metode nav konfigurēta šai videi"
-  no_products_found: "Nav atrasts nekāds produkts"
-=======
+
   no_payment_methods_available: "Nevar noslēgt darījumu, neviena maksājuma metode nav nokonfigurēta šai videi"
   no_products_found: "Neviens produkts netika atrasts"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   no_results: "No results"
   no_rules_added: No rules added
   no_user_found: "Neviens lietotājs netika atrasts ar šādu e-pasta adresi"
@@ -931,26 +710,7 @@ lv:
     product_not_deleted: "Produktu neizdevās izdzēst"
     variant_deleted: "Variants ir izdzēsts"
     variant_not_deleted: "Variants nav izdzēsts"
-<<<<<<< HEAD
-  number:
-    # Used in number_to_currency()
-    currency:
-      format:
-        # Формат отображения валюты и обозначение самой валюты
-        #
-        #
-        # Where is the currency sign? %u is the currency unit, %n the number (default: $5.00)
-        format: "%n %u"
-        negative_format: "- %n %u"
-        unit: "EUR"
-        # These three are to override number.format and are optional
-        separator: "."
-        delimiter: ""
-        precision: 2
-    format:
-      separator: "."
-=======
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
+
   on_hand: "Ir uz vietas"
   operation: Operation
   option_type: "Option Type"
@@ -978,19 +738,7 @@ lv:
   order_processed_successfully: "Jūsu pasūtījums ir apstrādāts veiksmīgi"
   order_state: # keys correspond to Checkout state names:
     # keys correspond to Checkout state names: 
-<<<<<<< HEAD
-    address: "Adrese"
-    adjustments: "Korekcijas"
-    awaiting_return: "Gaida atgrieizi"
-    canceled: "Atcelts"
-    cart: "Grozs"
-    complete: "Nobeigums"
-    confirm: "Apstiprinājums"
-    delivery: "Piegāde"
-    payment: "Kupons"
-    resumed: "Atjaunots"
-    returned: "Atgriezts"
-=======
+
     address: address
     adjustments: adjustments
     awaiting_return: awaiting return
@@ -1002,7 +750,6 @@ lv:
     payment: payment
     resumed: resumed
     returned: returned
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   order_summary: "Pasūtījuma apkopojums"
   order_sure_want_to: "Vai esiet pārliecināts, ka vēlaties %{event} šo pasūtījumu?"
   order_total: "Kopējais pasūtījums"
@@ -1034,11 +781,8 @@ lv:
   payment_methods: "Maksājuma metodes"
   payment_methods_setting_description: "Konfigurēt metodes, kuras var izmantot klienti, lai maksātu"
   payment_processing_failed: "Payment could not be processed, please check the details you entered"
-<<<<<<< HEAD
-  payment_state: Payment State
-=======
+
   payment_state: Maksājuma statuss
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   payment_states: 
     balance_due: balance due
     checkout: checkout
@@ -1219,17 +963,11 @@ lv:
     user: 
       description: Available only to the specified users
       name: User
-<<<<<<< HEAD
-  promotions: Promotions
-  promotions_description: Manage offers and coupons with promotions
-  properties: Properties
-  property: Property
-=======
+
   promotions: Akcijas
   promotions_description: Manage offers and coupons with promotions
   properties: Parametri
   property: Parametrs
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   prototype: "Prototips"
   prototypes: "Prototipi"
   provider: "Piegādātājs"
@@ -1276,13 +1014,8 @@ lv:
   rules: Rules
   sales_tax: "Pārdošanas nodoklis"
   sales_total: "Kopējā realizācija"
-<<<<<<< HEAD
-  sales_total_for_all_orders: "Kopējā realizācija visiem pasūtījumiem"
-  sales_totals: "Kopējā realizācija"
-  sales_totals_description: "Kopējā realizācija visiem pasūtījumiem"
-=======
+
   sales_total_description: "Sales Total For All Orders"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   save_and_continue: "Saglabāt un turpināt"
   save_preferences: "Saglabāt iestatījumus"
   scope: Scope
@@ -1291,10 +1024,7 @@ lv:
   search_results: "Meklēšanas rezultāti '%{keywords}'"
   searching: Searching
   secure_connection_type: Secure Connection Type
-<<<<<<< HEAD
-  secure_creditcard: Secure Creditcard
-=======
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
+
   select: "Izvēlēties"
   select_from_prototype: "Izvēlēties no prototipiem"
   select_preferred_shipping_option: "Izvēlēties vēlamo sūtīšanas metodi"
@@ -1313,13 +1043,9 @@ lv:
   shipment_mailer: 
     shipped_email: 
       subject: "Shipment Notification"
-<<<<<<< HEAD
-  shipment_number: "Sūtījums #"
-  shipment_state: Shipment State
-=======
+
   shipment_number: "Piegādes nr."
   shipment_state: Piegādes statuss
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   shipment_states: 
     backorder: backorder
     partial: partial
@@ -1341,11 +1067,8 @@ lv:
   shipping_methods: "Sūtīšanas metodes"
   shipping_methods_description: "Pārvaldīt sūtīšanas metodes"
   shipping_total: "Kopējais sūtīšanai"
-<<<<<<< HEAD
-  shop_by_taxonomy: "Pirkt pēc %{taxonomy}"
-=======
+
   shop_by_taxonomy: "%{taxonomy}"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   shopping_cart: "Iepirkuma grozs"
   show: "Parādīt"
   show_active: "Parādīt aktīvos"
@@ -1374,15 +1097,12 @@ lv:
   spree: 
     date: "Datums"
     time: "Laiks"
-<<<<<<< HEAD
-=======
     contact_us:
       contact_mailer:
         contact_email:
           subject: "Temats"
       notices:
         success: "Ziņojums nosūtīts"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   spree_gateway_error_flash_for_checkout: "There was a problem with your payment information. Please check your information and try again."
   ssl_will_be_used_in_development_and_test_modes: "SSL tiks izmantots attīstībā un testa modē, ja nepieciešams."
   ssl_will_be_used_in_production_mode: "SSL tiks izmantots produkcijas modē"
@@ -1401,15 +1121,10 @@ lv:
   street_address_2: "Ielas adrese (turpinājums)"
   subtotal: "Starpsumma"
   subtract: "Atskaitīt"
-<<<<<<< HEAD
-  successfully_created: "%{resource} has been successfully created!"
-  successfully_removed: "%{resource} has been successfully removed!"
-  successfully_updated: "%{resource} has been successfully updated!"
-=======
+
   successfully_created: "%{resource} tika veiksmīgi izveidots(-a)!"
   successfully_removed: "%{resource} tika veiksmīgi izdzēsts(-a)!"
   successfully_updated: "%{resource} tika veiksmīgi saglabāts(-a)!"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   system: "Sistēma"
   tax: "Nodokļi"
   tax_categories: "Nodokļu kategorijas"
@@ -1423,28 +1138,19 @@ lv:
   tax_type: "Nodokļu tips"
   taxon: Taxon
   taxon_edit: Edit Taxon
-<<<<<<< HEAD
-  taxonomies: Taxonomies
-  taxonomies_setting_description: "Create and manage taxonomies"
-  taxonomy_edit: "Edit taxonomy"
-=======
+
   taxonomies: Klasifikatori
   taxonomies_setting_description: "Pārvaldīt klasifikatorus"
   taxonomy_edit: "Labot klasifikatoru"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   taxonomy_tree_error: "Prasītās izmaiņas nav pieņemtas un koks ir atgriezts iepriekšējā stāvoklī, lūdzu, mēģiniet vēlreiz."
   taxonomy_tree_instruction: "* Ar labo peli uzklikšķiniet kokā, lai piekļūtu izvēlei: pievienošanai, izdzēšanai vai sortēšanai."
   taxons: Taxons
   test: "Tests"
   test_mode: "Testa Mode"
   thank_you_for_your_order: "Paldies par sadarbību. Lūdzu, izdrukājiet šo apstiprinājumu savai zināšanai."
-<<<<<<< HEAD
-  there_were_problems_with_the_following_fields: "There were problems with the following fields"
-  this_file_language: "Angliski (US)"
-=======
+
   there_were_problems_with_the_following_fields: "Problēmas ar sekojošiem laukiem"
   this_file_language: "Latvijas (LV)"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   this_month: "Šis mēnesis"
   this_year: "Šis gads"
   thumbnail: "Thumbnail"
@@ -1506,25 +1212,13 @@ lv:
   you_have_been_logged_out: "Jūs esat izgājis no sistēmas."
   you_have_no_orders_yet: "You have no orders yet."
   your_cart_is_empty: "Jūsu iepirkuma grozs ir tukšs"
-<<<<<<< HEAD
-  zip: "Pasta kods"
-=======
+
   zip: "Pasta indekss"
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
   zone: "Zona"
   zone_based: "Uz zonas balstīts"
   zone_setting_description: "Valstu, rajonu vai citu zonu kolekcija, kuru izmantot dažādās kalkulācijās."
   zones: "Zonas"
-<<<<<<< HEAD
-  to_cart: "Iepirkuma grozā"
-  available_quantity: "Pieejamais daudzums"
-  more: "Sīkak"
-  phone_is_correct: "Pārliecināties, ka numurs ir pareizs!"
-  if_coupon: "Если у Вас есть купон, введите его код ниже."
-  if_no_coupon: "Если купон отсутствует, то просто нажмите"
-  comments: "Komentāri"
-  delivery_time: "Norādiet vēlamo piegādes laiku un citus komentārus!"
-=======
+
 
   available_quantity: "Pieejamais daudzums"
   submit: "Sūtīt"
@@ -1551,7 +1245,7 @@ lv:
         # Where is the currency sign? %u is the currency unit, %n the number (default: $5.00)
         format: "%n %u"
         negative_format: "- %n %u"
-        unit: "Ls"
+        unit: "Eur"
         # These three are to override number.format and are optional
         separator: "."
         delimiter: ""
@@ -1565,4 +1259,3 @@ lv:
       next: ">>"
       previous: "<<"
       truncate: "..."
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526

@@ -1,18 +1,4 @@
-<<<<<<< HEAD
 source 'http://rubygems.org'
-
-gem 'rails', '3.0.3'
-gem 'sqlite3-ruby', :require => 'sqlite3'
-gem 'aws-s3', :require => 'aws/s3'
-gem 'aws'
-gem 'haml'
-
-gem 'spree_editor'
-gem 'spree_static_content'
-gem 'spree' , '0.40.0'
-gem "site", :path => "site", :require => "site"
-=======
-source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
 
@@ -75,4 +61,3 @@ gem 'spree_related_products', :git => 'git://github.com/spree/spree_related_prod
 gem 'tinymce-rails', '>= 3.4.7.0.1'
 gem 'tinymce-rails-langs'
 gem 'devise-encryptable'
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526

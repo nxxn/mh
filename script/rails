@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#!/usr/bin/env ruby
-=======
 #!/usr/bin/env ruby.exe
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
 # This command will automatically be run when you run "rails" with Rails 3 gems installed from the root of your application.
 
 APP_PATH = File.expand_path('../../config/application',  __FILE__)

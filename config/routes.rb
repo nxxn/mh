@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-SpreeHerokuDemo::Application.routes.draw do
-end
-=======
+
 Mh::Application.routes.draw do
 
   # This line mounts Spree's routes at the root of your application.
@@ -24,4 +21,3 @@ Mh::Application.routes.draw do
 
 end
 
->>>>>>> 67b20d427936bdd9f222949c7ced240486b1a526
