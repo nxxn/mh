@@ -1,4 +1,5 @@
 source 'http://rubygems.org'
+ruby '1.9.2'
 
 gem 'rails', '3.2.8'
 
@@ -12,6 +13,8 @@ gem 'aws-s3', :require => 'aws/s3'
 gem 'aws-sdk', :require => 'aws/s3'
 gem 'paperclip'
 
+
+gem 'rails_12factor'
 
 #gem 'sqlite3'
 #gem 'taps'
