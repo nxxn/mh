@@ -553,6 +553,7 @@ mark {background-color: $link_text_color; color: $layout_background_color; font-
       padding: 5px;
       img {
         min-height: 240px;
+        max-height: 450px;
       }
     }
     #product-thumbnails {
